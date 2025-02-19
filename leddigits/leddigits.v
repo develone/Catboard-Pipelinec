@@ -65,7 +65,28 @@ assign drvrs[2] = disp_inst_3_o_drvr;
 assign drvrs[3] = disp_inst_4_o_drvr;
 assign drvrs[1] = disp_inst_2_o_drvr;
 assign drvrs[4] = disp_inst_5_o_drvr;
-
+	wire	clk_25mhz, pll_locked;
+	wire		s_clk;
+	SB_PLL40_CORE #(
+		.FEEDBACK_PATH("SIMPLE"),
+		.DELAY_ADJUSTMENT_MODE_FEEDBACK("FIXED"),
+		.DELAY_ADJUSTMENT_MODE_RELATIVE("FIXED"),
+		.PLLOUT_SELECT("GENCLK"),
+		.FDA_FEEDBACK(4'b1111),
+		.FDA_RELATIVE(4'b1111),
+		.DIVR(4'b0000),		// DIVR =  0
+		.DIVF(7'b0000111),		// DIVQ =  7
+		.DIVQ(3'b101),		// DIVF =  5
+		.FILTER_RANGE(3'b101)	// FILTER_RANGE = 5
+	) plli (
+		.REFERENCECLK     (clk_i        ),
+		.PLLOUTCORE     (clk_25mhz    ),
+		.LOCK           (pll_locked  ),
+		.BYPASS         (1'b0         ),
+		.RESETB         (1'b1         )
+	);
+       	//SB_GB global_buffer(clk_40mhz, s_clk);
+	assign	s_clk = clk_25mhz;
 
 always @(posedge clk_i) begin: CATBOARD_CNTR_LOGIC
     cntr <= (cntr + 1);

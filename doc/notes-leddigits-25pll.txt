@@ -1,0 +1,45 @@
+devel@pi5-90:~/Catboard-Pipelinec/leddigits $ make clean
+rm -f *.blif *.asc *.bin *.json
+rm -rf obj_dir
+
+devel@pi5-90:~/Catboard-Pipelinec/leddigits $ make
+1 warning, 0 errors
+
+Info: Program finished normally.
+icetime -d hx8k -c 25 leddigits.asc
+// Reading input .asc file..
+// Reading 8k chipdb file..
+// Creating timing netlist..
+// Timing estimate: 11.71 ns (85.42 MHz)
+// Checking 40.00 ns (25.00 MHz) clock constraint: PASSED.
+icepack leddigits.asc leddigits.bin
+rm leddigits.asc
+
+devel@pi5-90:~/Catboard-Pipelinec/leddigits $ rsync -avl --delete /home/devel/Catboard-Pipelinec pi4-28:~/
+
+devel@pi4-28:~/Catboard-Pipelinec/leddigits $ sudo ~/CAT-Board/tests/config_cat leddigits.bin
+
+GPIO 25 not exported, trying to export...
+GPIO 17 not exported, trying to export...
+GPIO 22 not exported, trying to export...
+
+OK: SPI driver loaded
+
+Setting GPIO directions
+out
+out
+in
+Setting output to low
+0
+Reseting FPGA
+0
+1
+Checking DONE pin
+0
+Continuing with configuration procedure
+263+1 records in
+263+1 records out
+135100 bytes (135 kB, 132 KiB) copied, 0.0289622 s, 4.7 MB/s
+Setting output to high
+1
+Checking DONE pin
