@@ -36,7 +36,7 @@
 ################################################################################
 ##
 ##
-all: leddigits
+all: switch_leds
 
 # GNU Make automatic variables (since I can never remember these ...)
 # $@	- name of the target
@@ -44,20 +44,21 @@ all: leddigits
 # $^	- Names of all the prerequisites
 %.blif: %.v
 	#yosys -p 'synth_ice40 -blif $@' $^
-	yosys -l simple.log -p 'synth_ice40 -blif leddigits.blif -json leddigits.json -top catboard' leddigits.v
+	yosys -l simple.log -p 'synth_ice40 -blif switch_leds.blif -json switch_leds.json -top buttons_display' switch_leds.v
 %.asc: %.blif %.pcf
 	#arachne-pnr -d 8k -p $*.pcf -o $@ $<
-	nextpnr-ice40 --seed 8 --freq 100 --hx8k --pcf leddigits.pcf --json leddigits.json --asc leddigits.asc
+	nextpnr-ice40 --seed 8 --freq 100 --hx8k --pcf switch_leds.pcf --json switch_leds.json --asc switch_leds.asc
+
 %.bin: %.asc
-	icetime -d hx8k -c 25 $<
+	icetime -d hx8k -c 70 $<
 	icepack $< $@
 
-.PHONY: leddigits
+.PHONY: switch_leds
 
-leddigits:	leddigits.bin
+switch_leds:	switch_leds.bin
 
 
-leddigits.blif:   leddigits.v
+switch_leds.blif:   switch_leds.v
 
 
 .PHONY: clean
