@@ -5,9 +5,9 @@
  * using the icepll tool from the IceStorm project.
  * Use at your own risk.
  *
- * Given input frequency:        12.000 MHz
+ * Given input frequency:       100.000 MHz
  * Requested output frequency:   25.000 MHz
- * Achieved output frequency:    25.125 MHz
+ * Achieved output frequency:    25.000 MHz
  */
 
 module pll(
@@ -19,9 +19,9 @@ module pll(
 SB_PLL40_PAD #(
 		.FEEDBACK_PATH("SIMPLE"),
 		.DIVR(4'b0000),		// DIVR =  0
-		.DIVF(7'b1000010),	// DIVF = 66
+		.DIVF(7'b0000111),	// DIVF =  7
 		.DIVQ(3'b101),		// DIVQ =  5
-		.FILTER_RANGE(3'b001)	// FILTER_RANGE = 1
+		.FILTER_RANGE(3'b101)	// FILTER_RANGE = 5
 	) uut (
 		.LOCK(locked),
 		.RESETB(1'b1),
