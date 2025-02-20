@@ -1,0 +1,46 @@
+devel@pi5-70:~/Catboard-Pipelinec/blnk-ex/ice_makefile_pipelinec $  make clean
+rm -f *.json *.asc *.bin *.uf2
+rm -f yosys_stderr.log
+rm -f pipelinec.log
+rm -f -r pipelinec_output
+rm -f lextab.py
+rm -f yacctab.py
+rm -f dfu_util.log
+
+devel@pi5-70:~/Catboard-Pipelinec/blnk-ex/ice_makefile_pipelinec $  make pipelinec
+/home/devel/PipelineC/src/pipelinec top.c --top pipelinec_top --out_dir pipelinec_output --comb --no_synth > pipelinec.log
+ 
+devel@pi5-70:~/Catboard-Pipelinec/blnk-ex/ice_makefile_pipelinec $  make gateware.bin  
+/home/devel/oss-cad-suite//bin/yosys -q -m ghdl -p "ghdl --std=08 -frelaxed `cat pipelinec_output/vhdl_files.txt` -e pipelinec_top; read_verilog -sv top.sv; synth_ice40 -top top -json gateware.json" 2> yosys_stderr.log
+/home/devel/oss-cad-suite//bin/nextpnr-ice40 -q --randomize-seed --hx8k --package ct256 --pcf ice40.pcf --json gateware.json --asc gateware.asc
+/home/devel/oss-cad-suite//bin/icepack gateware.asc gateware.bin
+
+devel@pi5-70:~/Catboard-Pipelinec/blnk-ex/ice_makefile_pipelinec $  rsync -avl --delete /home/devel/Catboard-Pipelinec pi4-28:~/
+
+devel@pi4-28:~/Catboard-Pipelinec/blnk-ex/ice_makefile_pipelinec $ sudo ../../utils/config_cat gateware.bin 
+
+OK: GPIO 25 exported
+OK: GPIO 17 exported
+OK: GPIO 22 exported
+
+OK: SPI driver loaded
+
+Setting GPIO directions
+out
+out
+in
+Setting output to low
+0
+Reseting FPGA
+0
+1
+Checking DONE pin
+0
+Continuing with configuration procedure
+263+1 records in
+263+1 records out
+135100 bytes (135 kB, 132 KiB) copied, 0.0275852 s, 4.9 MB/s
+Setting output to high
+1
+Checking DONE pin
+1
