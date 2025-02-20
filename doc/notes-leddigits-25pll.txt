@@ -17,7 +17,7 @@ rm leddigits.asc
 
 devel@pi5-90:~/Catboard-Pipelinec/leddigits $ rsync -avl --delete /home/devel/Catboard-Pipelinec pi4-28:~/
 
-devel@pi4-28:~/Catboard-Pipelinec/leddigits $ sudo ~/CAT-Board/tests/config_cat leddigits.bin
+devel@pi4-28:~/Catboard-Pipelinec/leddigits $ sudo ../utils/config_cat leddigits.bin
 
 GPIO 25 not exported, trying to export...
 GPIO 17 not exported, trying to export...
