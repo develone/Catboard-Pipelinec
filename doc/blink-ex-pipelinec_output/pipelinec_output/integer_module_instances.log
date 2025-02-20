@@ -1,0 +1,8 @@
+BIN_OP_PLUS_uint23_t_uint1_t MaxInputWidth= 23 num_instances= 1 :
+BIN_OP_PLUS_uint23_t_uint1_t main: blinky_main MaxInputWidth= 23 num_instances= 1 :
+blinky_main/BIN_OP_PLUS[top_c_l12_c3_dc31]
+
+CONST_SR_22_uint23_t MaxInputWidth= 23 num_instances= 1 :
+CONST_SR_22_uint23_t main: blinky_main MaxInputWidth= 23 num_instances= 1 :
+blinky_main/CONST_SR_22[top_c_l10_c11_309f]
+
