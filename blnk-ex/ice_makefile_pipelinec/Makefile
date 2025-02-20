@@ -22,7 +22,7 @@ prog: gateware.bin
 
 gateware.bin: top.sv
 	$(YOSYS) -q -m ghdl -p "ghdl --std=08 -frelaxed `cat pipelinec_output/vhdl_files.txt` -e pipelinec_top; read_verilog -sv top.sv; synth_ice40 -top top -json $*.json" 2> yosys_stderr.log
-	$(NEXTPNR) -q --randomize-seed --up5k --package sg48 --pcf ice40.pcf --json $*.json --asc $*.asc
+	$(NEXTPNR) -q --randomize-seed --hx8k --package ct256 --pcf ice40.pcf --json $*.json --asc $*.asc
 	$(ICEPACK) $*.asc $@
 
 .bin.uf2:
