@@ -1,0 +1,40 @@
+Info: Generated random seed: 9583156342652868454
+Info: constrained 'clk_100p0' to bel 'X17/Y33/io0'
+Info: constrained 'ICE_39' to bel 'X18/Y33/io1'
+Info: constrained 'ICE_40' to bel 'X13/Y33/io0'
+Info: constrained 'ICE_41' to bel 'X11/Y33/io0'
+Info: constrained 'ICE_25' to bel 'X7/Y33/io1'
+Info: constrained 'ICE_27' to bel 'X3/Y33/io0'
+Info: constrained 'ICE_45' to bel 'X31/Y33/io0'
+Info: constrained 'ICE_47' to bel 'X30/Y33/io0'
+Info: constrained 'ICE_2' to bel 'X24/Y33/io1'
+Info: constrained 'ICE_4' to bel 'X22/Y33/io0'
+Info: constrained 'ICE_44' to bel 'X27/Y33/io0'
+Info: constrained 'ICE_46' to bel 'X26/Y33/io1'
+Info: constrained 'ICE_48' to bel 'X23/Y33/io1'
+Info: constrained 'ICE_3' to bel 'X24/Y33/io0'
+Info: constrained 'ICE_31' to bel 'X10/Y33/io1'
+Info: constrained 'ICE_34' to bel 'X8/Y33/io0'
+Info: constrained 'ICE_38' to bel 'X3/Y33/io0'
+Info: constrained 'ICE_43' to bel 'X4/Y33/io1'
+Info: constrained 'ICE_28' to bel 'X9/Y33/io0'
+Info: constrained 'ICE_32' to bel 'X8/Y33/io0'
+Info: constrained 'ICE_36' to bel 'X6/Y33/io1'
+Info: constrained 'ICE_42' to bel 'X5/Y33/io1'
+
+Info: Packing constants..
+Info: Packing IOs..
+Info: Packing LUT-FFs..
+Info:      308 LCs used as LUT4 only
+Info:      264 LCs used as LUT4 and DFF
+Info: Packing non-LUT FFs..
+Info:      486 LCs used as DFF only
+Info: Packing carries..
+Info:        4 LCs used as CARRY only
+Info: Packing indirect carry+LUT pairs...
+Info:        0 LUTs merged into carry LCs
+Info: Packing RAMs..
+Info: Placing PLLs..
+ERROR: PLL 'pll_inst.uut' PACKAGEPIN SB_IO 'clk_100p0$sb_io' is not connected to any PLL BEL
+ERROR: Packing design failed.
+0 warnings, 2 errors
