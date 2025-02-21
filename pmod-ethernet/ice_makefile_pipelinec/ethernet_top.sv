@@ -4,7 +4,7 @@ module ethernet_top(
   // PLL instance to make a clock based on 12MHz input
   wire pll_clk;
   pll pll_inst(
-    .clock_in(clk_12p0),
+    .clock_in(clk_100p0),
     .clock_out(pll_clk),
     .locked()
 	);

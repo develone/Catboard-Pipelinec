@@ -1,4 +1,4 @@
-set_io -nowarn clk_12p0         C8 # 12MHz clock in default RP firmware
+set_io -nowarn clk_100p0         C8 # 100MHz clock in default RP firmware
 
 # RGB LED
 set_io -nowarn ICE_39           A9 # LED_G active-low

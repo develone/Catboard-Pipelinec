@@ -8,7 +8,7 @@
 // Get clock rate constant PLL_CLK_MHZ from header written by make flow
 #include "pll_clk_mhz.h"
 // By default PipelineC names clock ports with the rate included
-// ex. clk_12p0
+// ex. clk_100p0
 // Override this behavior by creating an input with a constant name
 // and telling the tool that input signal is a clock of specific rate
 DECL_INPUT(uint1_t, pll_clk)
