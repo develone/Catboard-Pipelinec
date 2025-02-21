@@ -21,7 +21,7 @@ prog: gateware.bin
 	sudo $(DFU_UTIL) -d 1209:b1c0 -a 1 -D gateware.bin -R > dfu_util.log
 
 gateware.bin: top.sv
-	$(YOSYS) -l simple.log-q -m ghdl -p "ghdl --std=08 -frelaxed `cat pipelinec_output/vhdl_files.txt` -e pipelinec_top; read_verilog -sv top.sv; synth_ice40 -top top -json $*.json" 2> yosys_stderr.log
+	$(YOSYS) -l simple.log -q -m ghdl -p "ghdl --std=08 -frelaxed `cat pipelinec_output/vhdl_files.txt` -e pipelinec_top; read_verilog -sv top.sv; synth_ice40 -top top -json $*.json" 2> yosys_stderr.log
 	$(NEXTPNR) -l nextpnr.log -q --randomize-seed --hx8k --package ct256 --pcf ice40.pcf --json $*.json --asc $*.asc
 	$(ICEPACK) $*.asc $@
 
