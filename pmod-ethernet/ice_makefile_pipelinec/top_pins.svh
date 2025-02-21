@@ -1,5 +1,5 @@
 // These pins should all exist in ice40.pcf
-input clk_12p0,
+input clk_100p0,
 // RGB LED
 inout ICE_39,
 inout ICE_40,
