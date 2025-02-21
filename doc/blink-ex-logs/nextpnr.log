@@ -1,0 +1,286 @@
+Info: Generated random seed: 4009708443337476309
+Info: constrained 'clk_12p0' to bel 'X17/Y33/io0'
+Info: constrained 'ICE_39' to bel 'X18/Y33/io1'
+Info: constrained 'ICE_40' to bel 'X13/Y33/io0'
+Info: constrained 'ICE_41' to bel 'X11/Y33/io0'
+Info: constrained 'ICE_25' to bel 'X7/Y33/io1'
+Info: constrained 'ICE_27' to bel 'X3/Y33/io0'
+
+Info: Packing constants..
+Info: Packing IOs..
+Info: Packing LUT-FFs..
+Info:        0 LCs used as LUT4 only
+Info:       23 LCs used as LUT4 and DFF
+Info: Packing non-LUT FFs..
+Info:        4 LCs used as DFF only
+Info: Packing carries..
+Info:        0 LCs used as CARRY only
+Info: Packing indirect carry+LUT pairs...
+Info:        0 LUTs merged into carry LCs
+Info: Packing RAMs..
+Info: Placing PLLs..
+Info: Packing special functions..
+Info: Packing PLLs..
+Info: Promoting globals..
+Info: promoting clk_12p0$SB_IO_IN (fanout 27)
+Info: Constraining chains...
+Info:        1 LCs used to legalise carry chains.
+Info: Checksum: 0xb9714f0c
+
+Info: Device utilisation:
+Info: 	         ICESTORM_LC:      30/   7680     0%
+Info: 	        ICESTORM_RAM:       0/     32     0%
+Info: 	               SB_IO:       6/    256     2%
+Info: 	               SB_GB:       1/      8    12%
+Info: 	        ICESTORM_PLL:       0/      2     0%
+Info: 	         SB_WARMBOOT:       0/      1     0%
+
+Info: Placed 6 cells based on constraints.
+Info: Creating initial analytic placement for 8 cells, random placement wirelen = 160.
+Info:     at initial placer iter 0, wirelen = 8
+Info:     at initial placer iter 1, wirelen = 8
+Info:     at initial placer iter 2, wirelen = 8
+Info:     at initial placer iter 3, wirelen = 8
+Info: Running main analytical placer, max placement attempts per cell = 10000.
+Info:     at iteration #1, type ICESTORM_LC: wirelen solved = 8, spread = 20, legal = 20; time = 0.00s
+Info:     at iteration #1, type SB_GB: wirelen solved = 20, spread = 20, legal = 20; time = 0.00s
+Info:     at iteration #1, type ALL: wirelen solved = 8, spread = 20, legal = 16; time = 0.00s
+Info:     at iteration #2, type ICESTORM_LC: wirelen solved = 12, spread = 12, legal = 13; time = 0.00s
+Info:     at iteration #2, type SB_GB: wirelen solved = 13, spread = 13, legal = 13; time = 0.00s
+Info:     at iteration #2, type ALL: wirelen solved = 12, spread = 12, legal = 14; time = 0.00s
+Info: HeAP Placer Time: 0.01s
+Info:   of which solving equations: 0.00s
+Info:   of which spreading cells: 0.00s
+Info:   of which strict legalisation: 0.00s
+
+Info: Running simulated annealing placer for refinement.
+Info:   at iteration #1: temp = 0.000000, timing cost = 3, wirelen = 14
+Info:   at iteration #2: temp = 0.000000, timing cost = 3, wirelen = 14 
+Info: SA placement time 0.00s
+
+Info: Max frequency for clock 'clk_12p0$SB_IO_IN_$glb_clk': 197.20 MHz (PASS at 12.00 MHz)
+
+Info: Max delay <async>                            -> posedge clk_12p0$SB_IO_IN_$glb_clk: 1.06 ns
+Info: Max delay posedge clk_12p0$SB_IO_IN_$glb_clk -> <async>                           : 1.82 ns
+
+Info: Slack histogram:
+Info:  legend: * represents 1 endpoint(s)
+Info:          + represents [1,1) endpoint(s)
+Info: [ 78262,  78443) |** 
+Info: [ 78443,  78624) |*** 
+Info: [ 78624,  78805) |*** 
+Info: [ 78805,  78986) |** 
+Info: [ 78986,  79167) |*** 
+Info: [ 79167,  79348) |* 
+Info: [ 79348,  79529) |* 
+Info: [ 79529,  79710) |** 
+Info: [ 79710,  79891) |*** 
+Info: [ 79891,  80072) |*** 
+Info: [ 80072,  80253) |*** 
+Info: [ 80253,  80434) |** 
+Info: [ 80434,  80615) |** 
+Info: [ 80615,  80796) |* 
+Info: [ 80796,  80977) |* 
+Info: [ 80977,  81158) |*** 
+Info: [ 81158,  81339) |*** 
+Info: [ 81339,  81520) |*** 
+Info: [ 81520,  81701) |** 
+Info: [ 81701,  81882) |**** 
+Info: Checksum: 0x358f2bbd
+
+Info: Routing..
+Info: Setting up routing queue.
+Info: Routing 83 arcs.
+Info:            |   (re-)routed arcs  |   delta    | remaining|       time spent     |
+Info:    IterCnt |  w/ripup   wo/ripup |  w/r  wo/r |      arcs| batch(sec) total(sec)|
+Info:         83 |        0         64 |    0    64 |         0|       0.08       0.08|
+Info: Routing complete.
+Info: Router1 time 0.08s
+Info: Checksum: 0x40d12ed3
+
+Info: Critical path report for clock 'clk_12p0$SB_IO_IN_$glb_clk' (posedge -> posedge):
+Info:       type curr  total name
+Info:   clk-to-q  0.54  0.54 Source pipelinec_inst.blinky_main_0clk_23f04728.bin_op_plus_top_c_l12_c3_1483.left_SB_DFF_Q_21_D_SB_LUT4_O_LC.O
+Info:    routing  0.59  1.13 Net pipelinec_inst.blinky_main_0clk_23f04728.bin_op_plus_top_c_l12_c3_1483_left[0] (20,30) -> (19,30)
+Info:                          Sink $nextpnr_ICESTORM_LC_0.I1
+Info:      logic  0.26  1.39 Source $nextpnr_ICESTORM_LC_0.COUT
+Info:    routing  0.00  1.39 Net $nextpnr_ICESTORM_LC_0$O (19,30) -> (19,30)
+Info:                          Sink pipelinec_inst.blinky_main_0clk_23f04728.bin_op_plus_top_c_l12_c3_1483.left_SB_DFF_Q_20_D_SB_LUT4_O_LC.CIN
+Info:      logic  0.13  1.51 Source pipelinec_inst.blinky_main_0clk_23f04728.bin_op_plus_top_c_l12_c3_1483.left_SB_DFF_Q_20_D_SB_LUT4_O_LC.COUT
+Info:    routing  0.00  1.51 Net pipelinec_inst.blinky_main_0clk_23f04728.bin_op_plus_top_c_l12_c3_1483.left_SB_DFF_Q_19_D_SB_LUT4_O_I3 (19,30) -> (19,30)
+Info:                          Sink pipelinec_inst.blinky_main_0clk_23f04728.bin_op_plus_top_c_l12_c3_1483.left_SB_DFF_Q_19_D_SB_LUT4_O_LC.CIN
+Info:                          Defined in:
+Info:                               /home/devel/oss-cad-suite/lib/../share/yosys/ice40/arith_map.v:62.5-70.4
+Info:                               /home/devel/oss-cad-suite/lib/../share/yosys/ice40/abc9_model.v:4.9-4.11
+Info:      logic  0.13  1.64 Source pipelinec_inst.blinky_main_0clk_23f04728.bin_op_plus_top_c_l12_c3_1483.left_SB_DFF_Q_19_D_SB_LUT4_O_LC.COUT
+Info:    routing  0.00  1.64 Net pipelinec_inst.blinky_main_0clk_23f04728.bin_op_plus_top_c_l12_c3_1483.left_SB_DFF_Q_18_D_SB_LUT4_O_I3 (19,30) -> (19,30)
+Info:                          Sink pipelinec_inst.blinky_main_0clk_23f04728.bin_op_plus_top_c_l12_c3_1483.left_SB_DFF_Q_18_D_SB_LUT4_O_LC.CIN
+Info:                          Defined in:
+Info:                               /home/devel/oss-cad-suite/lib/../share/yosys/ice40/arith_map.v:62.5-70.4
+Info:                               /home/devel/oss-cad-suite/lib/../share/yosys/ice40/abc9_model.v:4.9-4.11
+Info:      logic  0.13  1.76 Source pipelinec_inst.blinky_main_0clk_23f04728.bin_op_plus_top_c_l12_c3_1483.left_SB_DFF_Q_18_D_SB_LUT4_O_LC.COUT
+Info:    routing  0.00  1.76 Net pipelinec_inst.blinky_main_0clk_23f04728.bin_op_plus_top_c_l12_c3_1483.left_SB_DFF_Q_17_D_SB_LUT4_O_I3 (19,30) -> (19,30)
+Info:                          Sink pipelinec_inst.blinky_main_0clk_23f04728.bin_op_plus_top_c_l12_c3_1483.left_SB_DFF_Q_17_D_SB_LUT4_O_LC.CIN
+Info:                          Defined in:
+Info:                               /home/devel/oss-cad-suite/lib/../share/yosys/ice40/arith_map.v:62.5-70.4
+Info:                               /home/devel/oss-cad-suite/lib/../share/yosys/ice40/abc9_model.v:4.9-4.11
+Info:      logic  0.13  1.89 Source pipelinec_inst.blinky_main_0clk_23f04728.bin_op_plus_top_c_l12_c3_1483.left_SB_DFF_Q_17_D_SB_LUT4_O_LC.COUT
+Info:    routing  0.00  1.89 Net pipelinec_inst.blinky_main_0clk_23f04728.bin_op_plus_top_c_l12_c3_1483.left_SB_DFF_Q_16_D_SB_LUT4_O_I3 (19,30) -> (19,30)
+Info:                          Sink pipelinec_inst.blinky_main_0clk_23f04728.bin_op_plus_top_c_l12_c3_1483.left_SB_DFF_Q_16_D_SB_LUT4_O_LC.CIN
+Info:                          Defined in:
+Info:                               /home/devel/oss-cad-suite/lib/../share/yosys/ice40/arith_map.v:62.5-70.4
+Info:                               /home/devel/oss-cad-suite/lib/../share/yosys/ice40/abc9_model.v:4.9-4.11
+Info:      logic  0.13  2.02 Source pipelinec_inst.blinky_main_0clk_23f04728.bin_op_plus_top_c_l12_c3_1483.left_SB_DFF_Q_16_D_SB_LUT4_O_LC.COUT
+Info:    routing  0.00  2.02 Net pipelinec_inst.blinky_main_0clk_23f04728.bin_op_plus_top_c_l12_c3_1483.left_SB_DFF_Q_15_D_SB_LUT4_O_I3 (19,30) -> (19,30)
+Info:                          Sink pipelinec_inst.blinky_main_0clk_23f04728.bin_op_plus_top_c_l12_c3_1483.left_SB_DFF_Q_15_D_SB_LUT4_O_LC.CIN
+Info:                          Defined in:
+Info:                               /home/devel/oss-cad-suite/lib/../share/yosys/ice40/arith_map.v:62.5-70.4
+Info:                               /home/devel/oss-cad-suite/lib/../share/yosys/ice40/abc9_model.v:4.9-4.11
+Info:      logic  0.13  2.14 Source pipelinec_inst.blinky_main_0clk_23f04728.bin_op_plus_top_c_l12_c3_1483.left_SB_DFF_Q_15_D_SB_LUT4_O_LC.COUT
+Info:    routing  0.00  2.14 Net pipelinec_inst.blinky_main_0clk_23f04728.bin_op_plus_top_c_l12_c3_1483.left_SB_DFF_Q_14_D_SB_LUT4_O_I3 (19,30) -> (19,30)
+Info:                          Sink pipelinec_inst.blinky_main_0clk_23f04728.bin_op_plus_top_c_l12_c3_1483.left_SB_DFF_Q_14_D_SB_LUT4_O_LC.CIN
+Info:                          Defined in:
+Info:                               /home/devel/oss-cad-suite/lib/../share/yosys/ice40/arith_map.v:62.5-70.4
+Info:                               /home/devel/oss-cad-suite/lib/../share/yosys/ice40/abc9_model.v:4.9-4.11
+Info:      logic  0.13  2.27 Source pipelinec_inst.blinky_main_0clk_23f04728.bin_op_plus_top_c_l12_c3_1483.left_SB_DFF_Q_14_D_SB_LUT4_O_LC.COUT
+Info:    routing  0.20  2.46 Net pipelinec_inst.blinky_main_0clk_23f04728.bin_op_plus_top_c_l12_c3_1483.left_SB_DFF_Q_13_D_SB_LUT4_O_I3 (19,30) -> (19,31)
+Info:                          Sink pipelinec_inst.blinky_main_0clk_23f04728.bin_op_plus_top_c_l12_c3_1483.left_SB_DFF_Q_13_D_SB_LUT4_O_LC.CIN
+Info:                          Defined in:
+Info:                               /home/devel/oss-cad-suite/lib/../share/yosys/ice40/arith_map.v:62.5-70.4
+Info:                               /home/devel/oss-cad-suite/lib/../share/yosys/ice40/abc9_model.v:4.9-4.11
+Info:      logic  0.13  2.59 Source pipelinec_inst.blinky_main_0clk_23f04728.bin_op_plus_top_c_l12_c3_1483.left_SB_DFF_Q_13_D_SB_LUT4_O_LC.COUT
+Info:    routing  0.00  2.59 Net pipelinec_inst.blinky_main_0clk_23f04728.bin_op_plus_top_c_l12_c3_1483.left_SB_DFF_Q_12_D_SB_LUT4_O_I3 (19,31) -> (19,31)
+Info:                          Sink pipelinec_inst.blinky_main_0clk_23f04728.bin_op_plus_top_c_l12_c3_1483.left_SB_DFF_Q_12_D_SB_LUT4_O_LC.CIN
+Info:                          Defined in:
+Info:                               /home/devel/oss-cad-suite/lib/../share/yosys/ice40/arith_map.v:62.5-70.4
+Info:                               /home/devel/oss-cad-suite/lib/../share/yosys/ice40/abc9_model.v:4.9-4.11
+Info:      logic  0.13  2.72 Source pipelinec_inst.blinky_main_0clk_23f04728.bin_op_plus_top_c_l12_c3_1483.left_SB_DFF_Q_12_D_SB_LUT4_O_LC.COUT
+Info:    routing  0.00  2.72 Net pipelinec_inst.blinky_main_0clk_23f04728.bin_op_plus_top_c_l12_c3_1483.left_SB_DFF_Q_11_D_SB_LUT4_O_I3 (19,31) -> (19,31)
+Info:                          Sink pipelinec_inst.blinky_main_0clk_23f04728.bin_op_plus_top_c_l12_c3_1483.left_SB_DFF_Q_11_D_SB_LUT4_O_LC.CIN
+Info:                          Defined in:
+Info:                               /home/devel/oss-cad-suite/lib/../share/yosys/ice40/arith_map.v:62.5-70.4
+Info:                               /home/devel/oss-cad-suite/lib/../share/yosys/ice40/abc9_model.v:4.9-4.11
+Info:      logic  0.13  2.84 Source pipelinec_inst.blinky_main_0clk_23f04728.bin_op_plus_top_c_l12_c3_1483.left_SB_DFF_Q_11_D_SB_LUT4_O_LC.COUT
+Info:    routing  0.00  2.84 Net pipelinec_inst.blinky_main_0clk_23f04728.bin_op_plus_top_c_l12_c3_1483.left_SB_DFF_Q_10_D_SB_LUT4_O_I3 (19,31) -> (19,31)
+Info:                          Sink pipelinec_inst.blinky_main_0clk_23f04728.bin_op_plus_top_c_l12_c3_1483.left_SB_DFF_Q_10_D_SB_LUT4_O_LC.CIN
+Info:                          Defined in:
+Info:                               /home/devel/oss-cad-suite/lib/../share/yosys/ice40/arith_map.v:62.5-70.4
+Info:                               /home/devel/oss-cad-suite/lib/../share/yosys/ice40/abc9_model.v:4.9-4.11
+Info:      logic  0.13  2.97 Source pipelinec_inst.blinky_main_0clk_23f04728.bin_op_plus_top_c_l12_c3_1483.left_SB_DFF_Q_10_D_SB_LUT4_O_LC.COUT
+Info:    routing  0.00  2.97 Net pipelinec_inst.blinky_main_0clk_23f04728.bin_op_plus_top_c_l12_c3_1483.left_SB_DFF_Q_9_D_SB_LUT4_O_I3 (19,31) -> (19,31)
+Info:                          Sink pipelinec_inst.blinky_main_0clk_23f04728.bin_op_plus_top_c_l12_c3_1483.left_SB_DFF_Q_9_D_SB_LUT4_O_LC.CIN
+Info:                          Defined in:
+Info:                               /home/devel/oss-cad-suite/lib/../share/yosys/ice40/arith_map.v:62.5-70.4
+Info:                               /home/devel/oss-cad-suite/lib/../share/yosys/ice40/abc9_model.v:4.9-4.11
+Info:      logic  0.13  3.10 Source pipelinec_inst.blinky_main_0clk_23f04728.bin_op_plus_top_c_l12_c3_1483.left_SB_DFF_Q_9_D_SB_LUT4_O_LC.COUT
+Info:    routing  0.00  3.10 Net pipelinec_inst.blinky_main_0clk_23f04728.bin_op_plus_top_c_l12_c3_1483.left_SB_DFF_Q_8_D_SB_LUT4_O_I3 (19,31) -> (19,31)
+Info:                          Sink pipelinec_inst.blinky_main_0clk_23f04728.bin_op_plus_top_c_l12_c3_1483.left_SB_DFF_Q_8_D_SB_LUT4_O_LC.CIN
+Info:                          Defined in:
+Info:                               /home/devel/oss-cad-suite/lib/../share/yosys/ice40/arith_map.v:62.5-70.4
+Info:                               /home/devel/oss-cad-suite/lib/../share/yosys/ice40/abc9_model.v:4.9-4.11
+Info:      logic  0.13  3.22 Source pipelinec_inst.blinky_main_0clk_23f04728.bin_op_plus_top_c_l12_c3_1483.left_SB_DFF_Q_8_D_SB_LUT4_O_LC.COUT
+Info:    routing  0.00  3.22 Net pipelinec_inst.blinky_main_0clk_23f04728.bin_op_plus_top_c_l12_c3_1483.left_SB_DFF_Q_7_D_SB_LUT4_O_I3 (19,31) -> (19,31)
+Info:                          Sink pipelinec_inst.blinky_main_0clk_23f04728.bin_op_plus_top_c_l12_c3_1483.left_SB_DFF_Q_7_D_SB_LUT4_O_LC.CIN
+Info:                          Defined in:
+Info:                               /home/devel/oss-cad-suite/lib/../share/yosys/ice40/arith_map.v:62.5-70.4
+Info:                               /home/devel/oss-cad-suite/lib/../share/yosys/ice40/abc9_model.v:4.9-4.11
+Info:      logic  0.13  3.35 Source pipelinec_inst.blinky_main_0clk_23f04728.bin_op_plus_top_c_l12_c3_1483.left_SB_DFF_Q_7_D_SB_LUT4_O_LC.COUT
+Info:    routing  0.00  3.35 Net pipelinec_inst.blinky_main_0clk_23f04728.bin_op_plus_top_c_l12_c3_1483.left_SB_DFF_Q_6_D_SB_LUT4_O_I3 (19,31) -> (19,31)
+Info:                          Sink pipelinec_inst.blinky_main_0clk_23f04728.bin_op_plus_top_c_l12_c3_1483.left_SB_DFF_Q_6_D_SB_LUT4_O_LC.CIN
+Info:                          Defined in:
+Info:                               /home/devel/oss-cad-suite/lib/../share/yosys/ice40/arith_map.v:62.5-70.4
+Info:                               /home/devel/oss-cad-suite/lib/../share/yosys/ice40/abc9_model.v:4.9-4.11
+Info:      logic  0.13  3.47 Source pipelinec_inst.blinky_main_0clk_23f04728.bin_op_plus_top_c_l12_c3_1483.left_SB_DFF_Q_6_D_SB_LUT4_O_LC.COUT
+Info:    routing  0.20  3.67 Net pipelinec_inst.blinky_main_0clk_23f04728.bin_op_plus_top_c_l12_c3_1483.left_SB_DFF_Q_5_D_SB_LUT4_O_I3 (19,31) -> (19,32)
+Info:                          Sink pipelinec_inst.blinky_main_0clk_23f04728.bin_op_plus_top_c_l12_c3_1483.left_SB_DFF_Q_5_D_SB_LUT4_O_LC.CIN
+Info:                          Defined in:
+Info:                               /home/devel/oss-cad-suite/lib/../share/yosys/ice40/arith_map.v:62.5-70.4
+Info:                               /home/devel/oss-cad-suite/lib/../share/yosys/ice40/abc9_model.v:4.9-4.11
+Info:      logic  0.13  3.80 Source pipelinec_inst.blinky_main_0clk_23f04728.bin_op_plus_top_c_l12_c3_1483.left_SB_DFF_Q_5_D_SB_LUT4_O_LC.COUT
+Info:    routing  0.00  3.80 Net pipelinec_inst.blinky_main_0clk_23f04728.bin_op_plus_top_c_l12_c3_1483.left_SB_DFF_Q_4_D_SB_LUT4_O_I3 (19,32) -> (19,32)
+Info:                          Sink pipelinec_inst.blinky_main_0clk_23f04728.bin_op_plus_top_c_l12_c3_1483.left_SB_DFF_Q_4_D_SB_LUT4_O_LC.CIN
+Info:                          Defined in:
+Info:                               /home/devel/oss-cad-suite/lib/../share/yosys/ice40/arith_map.v:62.5-70.4
+Info:                               /home/devel/oss-cad-suite/lib/../share/yosys/ice40/abc9_model.v:4.9-4.11
+Info:      logic  0.13  3.92 Source pipelinec_inst.blinky_main_0clk_23f04728.bin_op_plus_top_c_l12_c3_1483.left_SB_DFF_Q_4_D_SB_LUT4_O_LC.COUT
+Info:    routing  0.00  3.92 Net pipelinec_inst.blinky_main_0clk_23f04728.bin_op_plus_top_c_l12_c3_1483.left_SB_DFF_Q_3_D_SB_LUT4_O_I3 (19,32) -> (19,32)
+Info:                          Sink pipelinec_inst.blinky_main_0clk_23f04728.bin_op_plus_top_c_l12_c3_1483.left_SB_DFF_Q_3_D_SB_LUT4_O_LC.CIN
+Info:                          Defined in:
+Info:                               /home/devel/oss-cad-suite/lib/../share/yosys/ice40/arith_map.v:62.5-70.4
+Info:                               /home/devel/oss-cad-suite/lib/../share/yosys/ice40/abc9_model.v:4.9-4.11
+Info:      logic  0.13  4.05 Source pipelinec_inst.blinky_main_0clk_23f04728.bin_op_plus_top_c_l12_c3_1483.left_SB_DFF_Q_3_D_SB_LUT4_O_LC.COUT
+Info:    routing  0.00  4.05 Net pipelinec_inst.blinky_main_0clk_23f04728.bin_op_plus_top_c_l12_c3_1483.left_SB_DFF_Q_2_D_SB_LUT4_O_I3 (19,32) -> (19,32)
+Info:                          Sink pipelinec_inst.blinky_main_0clk_23f04728.bin_op_plus_top_c_l12_c3_1483.left_SB_DFF_Q_2_D_SB_LUT4_O_LC.CIN
+Info:                          Defined in:
+Info:                               /home/devel/oss-cad-suite/lib/../share/yosys/ice40/arith_map.v:62.5-70.4
+Info:                               /home/devel/oss-cad-suite/lib/../share/yosys/ice40/abc9_model.v:4.9-4.11
+Info:      logic  0.13  4.17 Source pipelinec_inst.blinky_main_0clk_23f04728.bin_op_plus_top_c_l12_c3_1483.left_SB_DFF_Q_2_D_SB_LUT4_O_LC.COUT
+Info:    routing  0.00  4.17 Net pipelinec_inst.blinky_main_0clk_23f04728.bin_op_plus_top_c_l12_c3_1483.left_SB_DFF_Q_1_D_SB_LUT4_O_I3 (19,32) -> (19,32)
+Info:                          Sink pipelinec_inst.blinky_main_0clk_23f04728.bin_op_plus_top_c_l12_c3_1483.left_SB_DFF_Q_1_D_SB_LUT4_O_LC.CIN
+Info:                          Defined in:
+Info:                               /home/devel/oss-cad-suite/lib/../share/yosys/ice40/arith_map.v:62.5-70.4
+Info:                               /home/devel/oss-cad-suite/lib/../share/yosys/ice40/abc9_model.v:4.9-4.11
+Info:      logic  0.13  4.30 Source pipelinec_inst.blinky_main_0clk_23f04728.bin_op_plus_top_c_l12_c3_1483.left_SB_DFF_Q_1_D_SB_LUT4_O_LC.COUT
+Info:    routing  0.00  4.30 Net pipelinec_inst.blinky_main_0clk_23f04728.bin_op_plus_top_c_l12_c3_1483.left_SB_DFF_Q_D_SB_LUT4_O_I3 (19,32) -> (19,32)
+Info:                          Sink pipelinec_inst.blinky_main_0clk_23f04728.bin_op_plus_top_c_l12_c3_1483.left_SB_DFF_Q_D_SB_LUT4_O_LC.CIN
+Info:                          Defined in:
+Info:                               /home/devel/oss-cad-suite/lib/../share/yosys/ice40/arith_map.v:62.5-70.4
+Info:                               /home/devel/oss-cad-suite/lib/../share/yosys/ice40/abc9_model.v:4.9-4.11
+Info:      logic  0.13  4.43 Source pipelinec_inst.blinky_main_0clk_23f04728.bin_op_plus_top_c_l12_c3_1483.left_SB_DFF_Q_D_SB_LUT4_O_LC.COUT
+Info:    routing  0.26  4.68 Net pipelinec_inst.blinky_main_0clk_23f04728.module_to_global.led_g_SB_LUT4_I2_I3 (19,32) -> (19,32)
+Info:                          Sink pipelinec_inst.blinky_main_0clk_23f04728.module_to_global.led_g_SB_LUT4_I2_LC.I3
+Info:                          Defined in:
+Info:                               /home/devel/oss-cad-suite/lib/../share/yosys/ice40/arith_map.v:62.5-70.4
+Info:                               /home/devel/oss-cad-suite/lib/../share/yosys/ice40/abc9_model.v:4.9-4.11
+Info:      setup  0.34  5.02 Source pipelinec_inst.blinky_main_0clk_23f04728.module_to_global.led_g_SB_LUT4_I2_LC.I3
+Info: 3.78 ns logic, 1.24 ns routing
+
+Info: Critical path report for cross-domain path '<async>' -> 'posedge clk_12p0$SB_IO_IN_$glb_clk':
+Info:       type curr  total name
+Info:     source  0.00  0.00 Source ICE_27$sb_io.D_IN_0
+Info:    routing  0.59  0.59 Net ICE_27$SB_IO_IN (3,33) -> (3,32)
+Info:                          Sink pipelinec_inst.uart_main_0clk_de264c78.global_to_module.uart_rx_SB_DFF_Q_DFFLC.I0
+Info:                          Defined in:
+Info:                               top.sv:9.9-9.15
+Info:      setup  0.47  1.06 Source pipelinec_inst.uart_main_0clk_de264c78.global_to_module.uart_rx_SB_DFF_Q_DFFLC.I0
+Info: 0.47 ns logic, 0.59 ns routing
+
+Info: Critical path report for cross-domain path 'posedge clk_12p0$SB_IO_IN_$glb_clk' -> '<async>':
+Info:       type curr  total name
+Info:   clk-to-q  0.54  0.54 Source ICE_40_SB_DFF_Q_DFFLC.O
+Info:    routing  1.49  2.03 Net ICE_41$SB_IO_OUT (11,32) -> (13,33)
+Info:                          Sink ICE_40$sb_io.D_OUT_0
+Info:                          Defined in:
+Info:                               top.sv:6.10-6.16
+Info: 0.54 ns logic, 1.49 ns routing
+
+Info: Max frequency for clock 'clk_12p0$SB_IO_IN_$glb_clk': 199.24 MHz (PASS at 12.00 MHz)
+
+Info: Max delay <async>                            -> posedge clk_12p0$SB_IO_IN_$glb_clk: 1.06 ns
+Info: Max delay posedge clk_12p0$SB_IO_IN_$glb_clk -> <async>                           : 2.03 ns
+
+Info: Slack histogram:
+Info:  legend: * represents 1 endpoint(s)
+Info:          + represents [1,1) endpoint(s)
+Info: [ 78314,  78492) |*** 
+Info: [ 78492,  78670) |** 
+Info: [ 78670,  78848) |**** 
+Info: [ 78848,  79026) |** 
+Info: [ 79026,  79204) |** 
+Info: [ 79204,  79382) |* 
+Info: [ 79382,  79560) |*** 
+Info: [ 79560,  79738) |** 
+Info: [ 79738,  79916) |*** 
+Info: [ 79916,  80094) |*** 
+Info: [ 80094,  80272) |** 
+Info: [ 80272,  80450) |*** 
+Info: [ 80450,  80628) |* 
+Info: [ 80628,  80806) |** 
+Info: [ 80806,  80984) |*** 
+Info: [ 80984,  81162) |*** 
+Info: [ 81162,  81340) |** 
+Info: [ 81340,  81518) |* 
+Info: [ 81518,  81696) | 
+Info: [ 81696,  81874) |***** 
+
+Info: Program finished normally.
