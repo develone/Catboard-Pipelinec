@@ -10,28 +10,28 @@ set_io -nowarn ICE_25           B5
 set_io -nowarn ICE_27           B3
 
 # PMOD0A
-set_io -nowarn ICE_45 45
-set_io -nowarn ICE_47 47
-set_io -nowarn ICE_2 2
-set_io -nowarn ICE_4 4
+set_io -nowarn ICE_45 B15 #PM3-A4 345
+set_io -nowarn ICE_47 B14 #PM3-A3 47
+set_io -nowarn ICE_2 B12 #PM3-A2 2
+set_io -nowarn ICE_4 A11 #PM3-A1 4
 
 # PMOD0B
-set_io -nowarn ICE_44 44
-set_io -nowarn ICE_46 46
-set_io -nowarn ICE_48 48
-set_io -nowarn ICE_3 3
+set_io -nowarn ICE_44 A15 #PM3-B4 44
+set_io -nowarn ICE_46 B13 #PM3-B3 46
+set_io -nowarn ICE_48 B11 #PM3-B2 48
+set_io -nowarn ICE_3 B10 #PM3-B1 3
 
 # PMOD1A
-set_io -nowarn ICE_31 31
-set_io -nowarn ICE_34 34
-set_io -nowarn ICE_38 38
-set_io -nowarn ICE_43 43
+set_io -nowarn ICE_31 B6 #PM2-A4 31
+set_io -nowarn ICE_34 A5 #PM2-A3 34
+set_io -nowarn ICE_38 B3 #PM2-A2 38
+set_io -nowarn ICE_43 A1 #PM2-A1 43
 
 # PMOD1B
-set_io -nowarn ICE_28 28
-set_io -nowarn ICE_32 32
-set_io -nowarn ICE_36 36
-set_io -nowarn ICE_42 42
+set_io -nowarn ICE_28 A6 #PM2-B4 28 
+set_io -nowarn ICE_32 A5 #PM2-B3 32
+set_io -nowarn ICE_36 B4 #PM2-B2 36
+set_io -nowarn ICE_42 A2 #PM2-B1 42
 
 
 
