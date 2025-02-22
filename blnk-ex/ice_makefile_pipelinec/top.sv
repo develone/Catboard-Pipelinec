@@ -1,5 +1,5 @@
 module top(
-  input clk_12p0,
+  input clk_100p0,
   // RGB LED
   output ICE_39,
   output ICE_40,
@@ -8,9 +8,14 @@ module top(
   output ICE_25,
   input ICE_27
 );
-
+wire pll_clk;
+pll pll_inst(
+  .clock_in(clk_100p0),
+  .clock_out(pll_clk),
+  .locked()
+);
   pipelinec_top pipelinec_inst(
-    .clk_12p0(clk_12p0),
+    .clk_100p0(pll_clk),
     // RGB LED
     .ice_39_return_output(ICE_39),
     .ice_40_return_output(ICE_40),
