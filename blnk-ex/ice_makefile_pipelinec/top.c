@@ -6,8 +6,9 @@ DECL_INPUT(uint1_t, pll_clk)
 CLK_MHZ(pll_clk, PLL_CLK_MHZ) 
 #define N 22
 #define count_t uint23_t
-clk_25p0_out <= clk_25p0;
-#pragma MAIN_MHZ blinky_main 12.0
+//clk_25p0_out <= clk_25p0;
+//#pragma MAIN_MHZ blinky_main 12.0
+MAIN_MHZ(blinky_main, PLL_CLK_MHZ)
 void blinky_main(){
   static count_t counter;
   led_r = 1;
