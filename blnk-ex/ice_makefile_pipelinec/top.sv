@@ -15,6 +15,7 @@ pll pll_inst(
   .locked()
 );
   pipelinec_top pipelinec_inst(
+ .pll_clk_val_input(pll_clk),
     //.clk_100p0(pll_clk),
     // RGB LED
     .ice_39_return_output(ICE_39),
