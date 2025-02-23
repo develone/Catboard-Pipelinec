@@ -1,5 +1,5 @@
 module top(
-//  input clk_100p0,
+  input clk_100p0,
   // RGB LED
   output ICE_39,
   output ICE_40,
