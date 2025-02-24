@@ -1,10 +1,11 @@
 module top(
+input clk_100p0,
   `include "top_pins.svh"
 );
   // PLL instance to make a clock based on 12MHz input
   wire pll_clk;
   pll pll_inst(
-    .clock_in(clk_12p0),
+    .clock_in(clk_100p0),
     .clock_out(pll_clk),
     .locked()
 	);
