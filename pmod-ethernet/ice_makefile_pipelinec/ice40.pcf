@@ -6,8 +6,8 @@ set_io -nowarn ICE_40           B8 # LED_B active-low
 set_io -nowarn ICE_41           B7 # LED_R active-low
 
 # UART in default RP firmware
-set_io -nowarn ICE_25           B5
-set_io -nowarn ICE_27           B3
+set_io -nowarn ICE_25           J1
+set_io -nowarn ICE_27           K1
 
 # PMOD0A
 set_io -nowarn ICE_45 B15 #PM3-A4 345
