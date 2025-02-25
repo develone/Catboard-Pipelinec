@@ -1,0 +1,61 @@
+02/25/25
+    set_io -nowarn ICE_25           J1
+    set_io -nowarn ICE_27           K1
+    
+    In your current code you are using ICE25 and ICE27 pins for UART
+    ```sv
+    // UART
+        .ice_25_return_output(ICE_25),
+        .ice_27_val_input(ICE_27
+red --> hdr1
+black --> hdr2
+yellow --> grd
+
+commit 5903fa06418e159a525ecd9013b2f48fdce07058 (HEAD -> main, origin/main, origin/HEAD)
+Author: Edward Vidal Jr <develone@sbcglobal.net>
+Date:   Tue Feb 25 10:19:27 2025 -0700
+
+    wkg
+
+devel@pi5-80:~/Catboard-Pipelinec/blink-ex-uart-echo/ice_makefile_pipelinec $
+make clean
+make pipelinec 
+make gateware.bin 
+rsync -avl --delete /home/devel/Catboard-Pipelinec pi4-28:~/
+devel@pi4-28:~/Catboard-Pipelinec/blink-ex-uart-echo/ice_makefile_pipelinec $ sudo config_cat gateware.bin 
+
+OK: GPIO 25 exported
+OK: GPIO 17 exported
+OK: GPIO 22 exported
+
+OK: SPI driver loaded
+
+Setting GPIO directions
+out
+out
+in
+Setting output to low
+0
+Reseting FPGA
+0
+1
+Checking DONE pin
+0
+Continuing with configuration procedure
+263+1 records in
+263+1 records out
+135100 bytes (135 kB, 132 KiB) copied, 0.027515 s, 4.9 MB/s
+Setting output to high
+1
+Checking DONE pin
+1
+
+
+Welcome to minicom 2.8
+
+OPTIONS: I18n 
+Port /dev/ttyUSB0, 10:16:16
+
+Press CTRL-A Z for help on special keys
+
+ABC1234567890abc
