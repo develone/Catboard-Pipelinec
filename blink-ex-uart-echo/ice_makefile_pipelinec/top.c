@@ -17,7 +17,8 @@ void blinky_main(){
   counter += 1;
 }
 
-#pragma MAIN_MHZ uart_main 12.0
+//#pragma MAIN_MHZ uart_main 12.0
+MAIN_MHZ(uart_main, PLL_CLK_MHZ)
 void uart_main(){
   // Default loopback connect
   uart_tx_mac_word_in = uart_rx_mac_word_out;
