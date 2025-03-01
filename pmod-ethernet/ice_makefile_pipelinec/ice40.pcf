@@ -24,7 +24,7 @@ set_io -nowarn ICE_3 B10 #PM3-B1 3
 # PMOD1A
 set_io -nowarn ICE_31 B6 #PM2-A4 31
 set_io -nowarn ICE_34 B5 #PM2-A3 34
-set_io -nowarn ICE_38 A2 #PM2-A2 38
+set_io -nowarn ICE_38 B3 #PM2-A2 38
 set_io -nowarn ICE_43 A1 #PM2-A1 43
 
 # PMOD1B
