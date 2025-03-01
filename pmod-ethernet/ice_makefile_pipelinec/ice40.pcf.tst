@@ -12,7 +12,7 @@ set_io -nowarn ICE_27           K1
 # PM2A
 set_io -nowarn PM2-A4 B6 #PM2-A4 345
 set_io -nowarn PM2-A3 B5 #PM2-A3 47
-set_io -nowarn PM2-A2 A2 #PM2-A2 2
+set_io -nowarn PM2-A2 B3 #PM2-A2 2
 set_io -nowarn PM2-A1 A1 #PM2-A1 4
 
 # PM2B
@@ -31,7 +31,7 @@ set_io -nowarn PM3-A1 A11 #PM3-A1 43
 set_io -nowarn PM2-B4 A15 #PM3-B4 28 
 set_io -nowarn PM3-B3 B13 #PM3-B3 32
 set_io -nowarn PM3-B2 B11 #PM3-B2 36
-set_io -nowarn PM3-B3 B10 #PM3-B1 42
+set_io -nowarn PM3-B1 B10 #PM3-B1 42
 
 
 
