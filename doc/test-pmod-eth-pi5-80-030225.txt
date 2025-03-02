@@ -1,0 +1,100 @@
+03/02/25 
+commit bf068f6633cd6bb5f3f190d8732f87e7bd5c6da1 (HEAD -> main, origin/main, origin/HEAD)
+Author: Edward Vidal Jr <develone@sbcglobal.net>
+Date:   Sun Mar 2 10:39:10 2025 -0700
+
+    yosys & nextpnr logs
+
+devel@pi5-80:~/Catboard-Pipelinec/pmod-ethernet/ice_makefile_pipelinec $ ./build.sh
+compiles and transfers gateware.bin to  pi4-28
+
+Info: Device utilisation:
+Info: 	         ICESTORM_LC:    2331/   7680    30%
+Info: 	        ICESTORM_RAM:       0/     32     0%
+Info: 	               SB_IO:      22/    256     8%
+Info: 	               SB_GB:       8/      8   100%
+Info: 	        ICESTORM_PLL:       1/      2    50%
+Info: 	         SB_WARMBOOT:       0/      1     0%
+
+devel@pi4-28:~/Catboard-Pipelinec/pmod-ethernet/ice_makefile_pipelinec $ ls -la gateware.bin 
+-rw-r--r-- 1 devel devel 135100 Mar  2 10:42 gateware.bin
+
+devel@pi4-28:~/Catboard-Pipelinec/pmod-ethernet/ice_makefile_pipelinec $ sudo ../../utils/config_cat gateware.bin 
+devel@pi5-70:~/PipelineC/examples/net $  ls -la
+total 88
+drwxr-xr-x  2 devel devel  4096 Mar  2 10:18 .
+drwxr-xr-x 29 devel devel  4096 Feb 28 06:30 ..
+-rw-r--r--  1 devel devel  6868 Feb 28 06:30 eth_sw.c
+-rw-r--r--  1 devel devel   684 Feb 28 06:30 eth_work.h
+-rw-r--r--  1 devel devel   402 Feb 28 06:30 fpga_mac.h
+-rw-r--r--  1 devel devel  4257 Feb 28 06:30 loopback_app.c
+-rw-r--r--  1 devel devel  1677 Feb 28 06:30 loopback_test.c
+-rw-r--r--  1 devel devel  2278 Feb 28 06:30 rmii_mac_loopback.c
+-rw-r--r--  1 devel devel  4660 Mar  2 10:18 snap-shot030125.txt
+-rw-r--r--  1 devel devel  4669 Feb 28 06:30 work.h
+-rwxr-xr-x  1 devel devel 72912 Mar  1 07:12 work_test
+-rw-r--r--  1 devel devel  5810 Feb 28 06:30 work_test.c
+
+devel@pi5-70:~/PipelineC/examples/net $ sudo ./work_test 
+CPU threads: 1
+n 'work()'s: 1 
+Total tx bytes: 8 
+Total rx bytes: 4 
+CPU took 0.000325 seconds to execute 
+CPU iteration time: 0.000325 seconds
+CPU bytes per sec: 36927.107850 B/s
+FPGA took 0.000213 seconds to execute 
+FPGA iteration time: 0.000213 seconds
+FPGA bytes per sec: 56299.382550 B/s
+Speedup: 1.524609
+
+Testing 2nd compile of 
+devel@pi5-90:~ $ ssh -Y pi5-80
+Linux pi5-80 6.6.74+rpt-rpi-2712 #1 SMP PREEMPT Debian 1:6.6.74-1+rpt1 (2025-01-27) aarch64
+
+The programs included with the Debian GNU/Linux system are free software;
+the exact distribution terms for each program are described in the
+individual files in /usr/share/doc/*/copyright.
+
+Debian GNU/Linux comes with ABSOLUTELY NO WARRANTY, to the extent
+permitted by applicable law.
+Last login: Sun Mar  2 10:20:41 2025 from 192.168.1.122
+devel@pi5-80:~ $ cd PipelineC/examples/net/
+devel@pi5-80:~/PipelineC/examples/net $ git pull
+Already up to date.
+devel@pi5-80:~/PipelineC/examples/net $ gcc -I ../../include -I ~/Catboard-Pipelinec/pmod-ethernet/ice_makefile_pipelinec/pipelinec_output/ -Wall -pthread work_test.c -o work_test
+devel@pi5-80:~/PipelineC/examples/net $ sudo ./work_test 
+CPU threads: 1
+n 'work()'s: 1 
+Total tx bytes: 8 
+Total rx bytes: 4 
+CPU took 0.000339 seconds to execute 
+CPU iteration time: 0.000339 seconds
+CPU bytes per sec: 35394.970464 B/s
+FPGA took 0.000187 seconds to execute 
+FPGA iteration time: 0.000187 seconds
+FPGA bytes per sec: 64116.749045 B/s
+
+devel@pi5-80:~/PipelineC/examples/net $ ls -la work_test
+-rwxr-xr-x 1 devel devel 72912 Mar  2 10:52 work_test
+
+Speedup: 1.811465
+
+
+Info: Device utilisation:
+Info: 	         ICESTORM_LC:    2337/   5280    44%
+Info: 	        ICESTORM_RAM:       0/     30     0%
+Info: 	               SB_IO:      22/     96    22%
+Info: 	               SB_GB:       8/      8   100%
+Info: 	        ICESTORM_PLL:       1/      1   100%
+Info: 	         SB_WARMBOOT:       0/      1     0%
+Info: 	        ICESTORM_DSP:       0/      8     0%
+Info: 	      ICESTORM_HFOSC:       0/      1     0%
+Info: 	      ICESTORM_LFOSC:       0/      1     0%
+Info: 	              SB_I2C:       0/      2     0%
+Info: 	              SB_SPI:       0/      2     0%
+Info: 	              IO_I3C:       0/      2     0%
+Info: 	         SB_LEDDA_IP:       0/      1     0%
+Info: 	         SB_RGBA_DRV:       0/      1     0%
+Info: 	      ICESTORM_SPRAM:       0/      4     0%
+
