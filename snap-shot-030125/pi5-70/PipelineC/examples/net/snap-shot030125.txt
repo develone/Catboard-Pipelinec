@@ -1,0 +1,82 @@
+devel@pi5-70:~/PipelineC/examples/pico-ice/ice_makefile_pipelinec $ ls -la
+total 10184
+drwxr-xr-x  3 devel devel    4096 Feb 28 06:52 .
+drwxr-xr-x  3 devel devel    4096 Feb 28 06:30 ..
+-rw-r--r--  1 devel devel      92 Feb 28 06:30 eth_clocks.py
+-rw-r--r--  1 devel devel    1221 Feb 28 06:30 eth_debug_probes.h
+-rw-r--r--  1 devel devel    7812 Feb 28 06:30 ethernet_top.c
+-rw-r--r--  1 devel devel     769 Feb 28 06:30 ethernet_top.sv
+-rw-r--r--  1 devel devel 3744319 Feb 28 06:51 gateware.asc
+-rw-r--r--  1 devel devel  104090 Feb 28 06:51 gateware.bin
+-rw-r--r--  1 devel devel 5273752 Feb 28 06:51 gateware.json
+-rw-r--r--  1 devel devel  208384 Feb 28 06:52 gateware.uf2
+-rw-r--r--  1 devel devel      11 Feb 28 06:30 .gitignore
+-rw-r--r--  1 devel devel     784 Feb 28 06:30 ice40.pcf
+-rw-r--r--  1 devel devel    7074 Feb 28 06:50 lextab.py
+-rw-r--r--  1 devel devel    2132 Feb 28 06:30 Makefile
+-rw-r--r--  1 devel devel   42475 Feb 28 06:51 nextpnr.log
+-rw-r--r--  1 devel devel    6887 Feb 28 06:50 pipelinec.log
+drwxr-xr-x 10 devel devel    4096 Feb 28 06:50 pipelinec_output
+-rw-r--r--  1 devel devel      26 Feb 28 06:50 pll_clk_mhz.h
+-rw-r--r--  1 devel devel     676 Feb 28 06:51 pll.v
+-rw-r--r--  1 devel devel    2173 Feb 28 06:30 pong_top.c
+-rw-r--r--  1 devel devel    2736 Feb 28 06:30 README.md
+-rw-r--r--  1 devel devel  684647 Feb 28 06:51 simple.log
+-rw-r--r--  1 devel devel    3254 Feb 28 06:30 top.c
+-rw-r--r--  1 devel devel    2168 Feb 28 06:30 top.h
+-rw-r--r--  1 devel devel     431 Feb 28 06:30 top_pins.svh
+-rw-r--r--  1 devel devel    1191 Feb 28 06:30 top.sv
+-rw-r--r--  1 devel devel  166163 Feb 28 06:50 yacctab.py
+-rw-r--r--  1 devel devel   91410 Feb 28 06:51 yosys_stderr.log
+devel@pi5-70:~/PipelineC/examples/net $ ls -la
+total 80
+drwxr-xr-x  2 devel devel  4096 Mar  1 07:12 .
+drwxr-xr-x 29 devel devel  4096 Feb 28 06:30 ..
+-rw-r--r--  1 devel devel  6868 Feb 28 06:30 eth_sw.c
+-rw-r--r--  1 devel devel   684 Feb 28 06:30 eth_work.h
+-rw-r--r--  1 devel devel   402 Feb 28 06:30 fpga_mac.h
+-rw-r--r--  1 devel devel  4257 Feb 28 06:30 loopback_app.c
+-rw-r--r--  1 devel devel  1677 Feb 28 06:30 loopback_test.c
+-rw-r--r--  1 devel devel  2278 Feb 28 06:30 rmii_mac_loopback.c
+-rw-r--r--  1 devel devel  4669 Feb 28 06:30 work.h
+-rwxr-xr-x  1 devel devel 72912 Mar  1 07:12 work_test
+-rw-r--r--  1 devel devel  5810 Feb 28 06:30 work_test.c
+devel@pi5-70:~/Catboard-Pipelinec/pmod-ethernet/ice_makefile_pipelinec $ ls -la
+total 10252
+drwxr-xr-x  3 devel devel    4096 Mar  1 10:35 .
+drwxr-xr-x  3 devel devel    4096 Feb 28 13:16 ..
+-rwxr-xr-x  1 devel devel     233 Mar  1 10:35 build.sh
+-rwxr-xr-x  1 devel devel     233 Mar  1 06:47 build.sh.tmp
+-rw-r--r--  1 devel devel    7974 Feb 28 13:16 catzip.pcf
+-rw-r--r--  1 devel devel      92 Feb 28 13:19 eth_clocks.py
+-rw-r--r--  1 devel devel    7812 Feb 28 13:20 ethernet_top.c
+-rw-r--r--  1 devel devel     692 Feb 28 13:16 ethernet_top.sv
+-rw-r--r--  1 devel devel     698 Feb 28 19:10 ethernet_top.sv.tst
+-rw-r--r--  1 devel devel 3983133 Mar  1 07:02 gateware.asc
+-rw-r--r--  1 devel devel  135100 Mar  1 07:02 gateware.bin
+-rw-r--r--  1 devel devel 5277667 Mar  1 07:01 gateware.json
+-rw-r--r--  1 devel devel      11 Feb 28 13:16 .gitignore
+-rw-r--r--  1 devel devel     972 Mar  1 10:35 ice40.pcf
+-rw-r--r--  1 devel devel     972 Mar  1 07:00 ice40.pcf.tmp
+-rw-r--r--  1 devel devel     966 Mar  1 06:08 ice40.pcf.tst
+-rw-r--r--  1 devel devel    7074 Mar  1 07:01 lextab.py
+-rw-r--r--  1 devel devel    2140 Feb 28 13:16 Makefile
+-rw-r--r--  1 devel devel   26753 Mar  1 07:02 nextpnr.log
+-rw-r--r--  1 devel devel    6907 Mar  1 07:01 pipelinec.log
+drwxr-xr-x 26 devel devel    4096 Mar  1 07:01 pipelinec_output
+-rw-r--r--  1 devel devel      26 Mar  1 07:01 pll_clk_mhz.h
+-rw-r--r--  1 devel devel     679 Mar  1 07:01 pll.v
+-rw-r--r--  1 devel devel    2173 Feb 28 13:16 pong_top.c
+-rw-r--r--  1 devel devel    2736 Feb 28 13:16 README.md
+-rw-r--r--  1 devel devel  682828 Mar  1 07:01 simple.log
+-rw-r--r--  1 devel devel    3254 Feb 28 13:16 top.c
+-rw-r--r--  1 devel devel    2168 Feb 28 13:16 top.h
+-rw-r--r--  1 devel devel     432 Feb 28 13:16 top_pins.svh
+-rw-r--r--  1 devel devel    1209 Feb 28 13:16 top.sv
+-rw-r--r--  1 devel devel    1215 Feb 28 19:10 top.sv.tst
+-rw-r--r--  1 devel devel  166163 Mar  1 07:01 yacctab.py
+-rw-r--r--  1 devel devel   91563 Mar  1 07:01 yosys_stderr.log
+1925  cd PipelineC/examples/net/
+1929  gcc -I ../../include -I ~/Catboard-Pipelinec/pmod-ethernet/ice_makefile_pipelinec/pipelinec_output/ -Wall -pthread work_test.c -o work_test
+split ../../Catboard-Pipelinec-Pipelinec-pi5-70-030125.tgz
+cat * > xx.tgz

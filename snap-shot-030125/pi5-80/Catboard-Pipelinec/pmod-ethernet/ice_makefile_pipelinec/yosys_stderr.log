@@ -1,0 +1,870 @@
+/home/devel/Catboard-Pipelinec/pmod-ethernet/ice_makefile_pipelinec/pipelinec_output/c_structs_pkg.pkg.vhd:4148:33:warning: declaration of "data" hides enumeration literal DATA [-Whide]
+      function uint8_t_6_to_slv(data : uint8_t_6) return std_logic_vector;
+                                ^
+/home/devel/Catboard-Pipelinec/pmod-ethernet/ice_makefile_pipelinec/pipelinec_output/c_structs_pkg.pkg.vhd:4150:33:warning: declaration of "data" hides enumeration literal DATA [-Whide]
+      function slv_to_uint8_t_6(data : std_logic_vector) return uint8_t_6;
+                                ^
+/home/devel/Catboard-Pipelinec/pmod-ethernet/ice_makefile_pipelinec/pipelinec_output/c_structs_pkg.pkg.vhd:4154:34:warning: declaration of "data" hides enumeration literal DATA [-Whide]
+      function uint2_t_20_to_slv(data : uint2_t_20) return std_logic_vector;
+                                 ^
+/home/devel/Catboard-Pipelinec/pmod-ethernet/ice_makefile_pipelinec/pipelinec_output/c_structs_pkg.pkg.vhd:4156:34:warning: declaration of "data" hides enumeration literal DATA [-Whide]
+      function slv_to_uint2_t_20(data : std_logic_vector) return uint2_t_20;
+                                 ^
+/home/devel/Catboard-Pipelinec/pmod-ethernet/ice_makefile_pipelinec/pipelinec_output/c_structs_pkg.pkg.vhd:4160:34:warning: declaration of "data" hides enumeration literal DATA [-Whide]
+      function uint1_t_20_to_slv(data : uint1_t_20) return std_logic_vector;
+                                 ^
+/home/devel/Catboard-Pipelinec/pmod-ethernet/ice_makefile_pipelinec/pipelinec_output/c_structs_pkg.pkg.vhd:4162:34:warning: declaration of "data" hides enumeration literal DATA [-Whide]
+      function slv_to_uint1_t_20(data : std_logic_vector) return uint1_t_20;
+                                 ^
+/home/devel/Catboard-Pipelinec/pmod-ethernet/ice_makefile_pipelinec/pipelinec_output/c_structs_pkg.pkg.vhd:4166:35:warning: declaration of "data" hides enumeration literal DATA [-Whide]
+      function uint32_t_16_to_slv(data : uint32_t_16) return std_logic_vector;
+                                  ^
+/home/devel/Catboard-Pipelinec/pmod-ethernet/ice_makefile_pipelinec/pipelinec_output/c_structs_pkg.pkg.vhd:4168:35:warning: declaration of "data" hides enumeration literal DATA [-Whide]
+      function slv_to_uint32_t_16(data : std_logic_vector) return uint32_t_16;
+                                  ^
+/home/devel/Catboard-Pipelinec/pmod-ethernet/ice_makefile_pipelinec/pipelinec_output/c_structs_pkg.pkg.vhd:4172:33:warning: declaration of "data" hides enumeration literal DATA [-Whide]
+      function uint8_t_1_to_slv(data : uint8_t_1) return std_logic_vector;
+                                ^
+/home/devel/Catboard-Pipelinec/pmod-ethernet/ice_makefile_pipelinec/pipelinec_output/c_structs_pkg.pkg.vhd:4174:33:warning: declaration of "data" hides enumeration literal DATA [-Whide]
+      function slv_to_uint8_t_1(data : std_logic_vector) return uint8_t_1;
+                                ^
+/home/devel/Catboard-Pipelinec/pmod-ethernet/ice_makefile_pipelinec/pipelinec_output/c_structs_pkg.pkg.vhd:4178:33:warning: declaration of "data" hides enumeration literal DATA [-Whide]
+      function uint8_t_8_to_slv(data : uint8_t_8) return std_logic_vector;
+                                ^
+/home/devel/Catboard-Pipelinec/pmod-ethernet/ice_makefile_pipelinec/pipelinec_output/c_structs_pkg.pkg.vhd:4180:33:warning: declaration of "data" hides enumeration literal DATA [-Whide]
+      function slv_to_uint8_t_8(data : std_logic_vector) return uint8_t_8;
+                                ^
+/home/devel/Catboard-Pipelinec/pmod-ethernet/ice_makefile_pipelinec/pipelinec_output/c_structs_pkg.pkg.vhd:4184:33:warning: declaration of "data" hides enumeration literal DATA [-Whide]
+      function uint8_t_4_to_slv(data : uint8_t_4) return std_logic_vector;
+                                ^
+/home/devel/Catboard-Pipelinec/pmod-ethernet/ice_makefile_pipelinec/pipelinec_output/c_structs_pkg.pkg.vhd:4186:33:warning: declaration of "data" hides enumeration literal DATA [-Whide]
+      function slv_to_uint8_t_4(data : std_logic_vector) return uint8_t_4;
+                                ^
+/home/devel/Catboard-Pipelinec/pmod-ethernet/ice_makefile_pipelinec/pipelinec_output/c_structs_pkg.pkg.vhd:4190:33:warning: declaration of "data" hides enumeration literal DATA [-Whide]
+      function uint1_t_1_to_slv(data : uint1_t_1) return std_logic_vector;
+                                ^
+/home/devel/Catboard-Pipelinec/pmod-ethernet/ice_makefile_pipelinec/pipelinec_output/c_structs_pkg.pkg.vhd:4192:33:warning: declaration of "data" hides enumeration literal DATA [-Whide]
+      function slv_to_uint1_t_1(data : std_logic_vector) return uint1_t_1;
+                                ^
+/home/devel/Catboard-Pipelinec/pmod-ethernet/ice_makefile_pipelinec/pipelinec_output/c_structs_pkg.pkg.vhd:4196:33:warning: declaration of "data" hides enumeration literal DATA [-Whide]
+      function uint1_t_4_to_slv(data : uint1_t_4) return std_logic_vector;
+                                ^
+/home/devel/Catboard-Pipelinec/pmod-ethernet/ice_makefile_pipelinec/pipelinec_output/c_structs_pkg.pkg.vhd:4198:33:warning: declaration of "data" hides enumeration literal DATA [-Whide]
+      function slv_to_uint1_t_4(data : std_logic_vector) return uint1_t_4;
+                                ^
+/home/devel/Catboard-Pipelinec/pmod-ethernet/ice_makefile_pipelinec/pipelinec_output/c_structs_pkg.pkg.vhd:4202:33:warning: declaration of "data" hides enumeration literal DATA [-Whide]
+      function uint8_t_2_to_slv(data : uint8_t_2) return std_logic_vector;
+                                ^
+/home/devel/Catboard-Pipelinec/pmod-ethernet/ice_makefile_pipelinec/pipelinec_output/c_structs_pkg.pkg.vhd:4204:33:warning: declaration of "data" hides enumeration literal DATA [-Whide]
+      function slv_to_uint8_t_2(data : std_logic_vector) return uint8_t_2;
+                                ^
+/home/devel/Catboard-Pipelinec/pmod-ethernet/ice_makefile_pipelinec/pipelinec_output/c_structs_pkg.pkg.vhd:4208:33:warning: declaration of "data" hides enumeration literal DATA [-Whide]
+      function uint1_t_2_to_slv(data : uint1_t_2) return std_logic_vector;
+                                ^
+/home/devel/Catboard-Pipelinec/pmod-ethernet/ice_makefile_pipelinec/pipelinec_output/c_structs_pkg.pkg.vhd:4210:33:warning: declaration of "data" hides enumeration literal DATA [-Whide]
+      function slv_to_uint1_t_2(data : std_logic_vector) return uint1_t_2;
+                                ^
+/home/devel/Catboard-Pipelinec/pmod-ethernet/ice_makefile_pipelinec/pipelinec_output/c_structs_pkg.pkg.vhd:4214:32:warning: declaration of "data" hides enumeration literal DATA [-Whide]
+      function int8_t_2_to_slv(data : int8_t_2) return std_logic_vector;
+                               ^
+/home/devel/Catboard-Pipelinec/pmod-ethernet/ice_makefile_pipelinec/pipelinec_output/c_structs_pkg.pkg.vhd:4216:32:warning: declaration of "data" hides enumeration literal DATA [-Whide]
+      function slv_to_int8_t_2(data : std_logic_vector) return int8_t_2;
+                               ^
+/home/devel/Catboard-Pipelinec/pmod-ethernet/ice_makefile_pipelinec/pipelinec_output/c_structs_pkg.pkg.vhd:4220:34:warning: declaration of "data" hides enumeration literal DATA [-Whide]
+      function int8_t_2_2_to_slv(data : int8_t_2_2) return std_logic_vector;
+                                 ^
+/home/devel/Catboard-Pipelinec/pmod-ethernet/ice_makefile_pipelinec/pipelinec_output/c_structs_pkg.pkg.vhd:4222:34:warning: declaration of "data" hides enumeration literal DATA [-Whide]
+      function slv_to_int8_t_2_2(data : std_logic_vector) return int8_t_2_2;
+                                 ^
+/home/devel/Catboard-Pipelinec/pmod-ethernet/ice_makefile_pipelinec/pipelinec_output/c_structs_pkg.pkg.vhd:4242:27:warning: declaration of "data" hides enumeration literal DATA [-Whide]
+  function axis8_t_to_slv(data : axis8_t) return std_logic_vector;
+                          ^
+/home/devel/Catboard-Pipelinec/pmod-ethernet/ice_makefile_pipelinec/pipelinec_output/c_structs_pkg.pkg.vhd:4244:27:warning: declaration of "data" hides enumeration literal DATA [-Whide]
+  function slv_to_axis8_t(data : std_logic_vector) return axis8_t;
+                          ^
+/home/devel/Catboard-Pipelinec/pmod-ethernet/ice_makefile_pipelinec/pipelinec_output/c_structs_pkg.pkg.vhd:4262:36:warning: declaration of "data" hides enumeration literal DATA [-Whide]
+  function axis8_t_stream_t_to_slv(data : axis8_t_stream_t) return std_logic_vector;
+                                   ^
+/home/devel/Catboard-Pipelinec/pmod-ethernet/ice_makefile_pipelinec/pipelinec_output/c_structs_pkg.pkg.vhd:4264:36:warning: declaration of "data" hides enumeration literal DATA [-Whide]
+  function slv_to_axis8_t_stream_t(data : std_logic_vector) return axis8_t_stream_t;
+                                   ^
+/home/devel/Catboard-Pipelinec/pmod-ethernet/ice_makefile_pipelinec/pipelinec_output/c_structs_pkg.pkg.vhd:4284:28:warning: declaration of "data" hides enumeration literal DATA [-Whide]
+  function axis32_t_to_slv(data : axis32_t) return std_logic_vector;
+                           ^
+/home/devel/Catboard-Pipelinec/pmod-ethernet/ice_makefile_pipelinec/pipelinec_output/c_structs_pkg.pkg.vhd:4286:28:warning: declaration of "data" hides enumeration literal DATA [-Whide]
+  function slv_to_axis32_t(data : std_logic_vector) return axis32_t;
+                           ^
+/home/devel/Catboard-Pipelinec/pmod-ethernet/ice_makefile_pipelinec/pipelinec_output/c_structs_pkg.pkg.vhd:4304:37:warning: declaration of "data" hides enumeration literal DATA [-Whide]
+  function axis32_t_stream_t_to_slv(data : axis32_t_stream_t) return std_logic_vector;
+                                    ^
+/home/devel/Catboard-Pipelinec/pmod-ethernet/ice_makefile_pipelinec/pipelinec_output/c_structs_pkg.pkg.vhd:4306:37:warning: declaration of "data" hides enumeration literal DATA [-Whide]
+  function slv_to_axis32_t_stream_t(data : std_logic_vector) return axis32_t_stream_t;
+                                    ^
+/home/devel/Catboard-Pipelinec/pmod-ethernet/ice_makefile_pipelinec/pipelinec_output/c_structs_pkg.pkg.vhd:4326:28:warning: declaration of "data" hides enumeration literal DATA [-Whide]
+  function axis16_t_to_slv(data : axis16_t) return std_logic_vector;
+                           ^
+/home/devel/Catboard-Pipelinec/pmod-ethernet/ice_makefile_pipelinec/pipelinec_output/c_structs_pkg.pkg.vhd:4328:28:warning: declaration of "data" hides enumeration literal DATA [-Whide]
+  function slv_to_axis16_t(data : std_logic_vector) return axis16_t;
+                           ^
+/home/devel/Catboard-Pipelinec/pmod-ethernet/ice_makefile_pipelinec/pipelinec_output/c_structs_pkg.pkg.vhd:4346:37:warning: declaration of "data" hides enumeration literal DATA [-Whide]
+  function axis16_t_stream_t_to_slv(data : axis16_t_stream_t) return std_logic_vector;
+                                    ^
+/home/devel/Catboard-Pipelinec/pmod-ethernet/ice_makefile_pipelinec/pipelinec_output/c_structs_pkg.pkg.vhd:4348:37:warning: declaration of "data" hides enumeration literal DATA [-Whide]
+  function slv_to_axis16_t_stream_t(data : std_logic_vector) return axis16_t_stream_t;
+                                    ^
+/home/devel/Catboard-Pipelinec/pmod-ethernet/ice_makefile_pipelinec/pipelinec_output/c_structs_pkg.pkg.vhd:4366:37:warning: declaration of "data" hides enumeration literal DATA [-Whide]
+  function axis8_to_axis32_t_to_slv(data : axis8_to_axis32_t) return std_logic_vector;
+                                    ^
+/home/devel/Catboard-Pipelinec/pmod-ethernet/ice_makefile_pipelinec/pipelinec_output/c_structs_pkg.pkg.vhd:4368:37:warning: declaration of "data" hides enumeration literal DATA [-Whide]
+  function slv_to_axis8_to_axis32_t(data : std_logic_vector) return axis8_to_axis32_t;
+                                    ^
+/home/devel/Catboard-Pipelinec/pmod-ethernet/ice_makefile_pipelinec/pipelinec_output/c_structs_pkg.pkg.vhd:4386:37:warning: declaration of "data" hides enumeration literal DATA [-Whide]
+  function axis32_to_axis8_t_to_slv(data : axis32_to_axis8_t) return std_logic_vector;
+                                    ^
+/home/devel/Catboard-Pipelinec/pmod-ethernet/ice_makefile_pipelinec/pipelinec_output/c_structs_pkg.pkg.vhd:4388:37:warning: declaration of "data" hides enumeration literal DATA [-Whide]
+  function slv_to_axis32_to_axis8_t(data : std_logic_vector) return axis32_to_axis8_t;
+                                    ^
+/home/devel/Catboard-Pipelinec/pmod-ethernet/ice_makefile_pipelinec/pipelinec_output/c_structs_pkg.pkg.vhd:4406:43:warning: declaration of "data" hides enumeration literal DATA [-Whide]
+  function axis8_max_len_limiter_t_to_slv(data : axis8_max_len_limiter_t) return std_logic_vector;
+                                          ^
+/home/devel/Catboard-Pipelinec/pmod-ethernet/ice_makefile_pipelinec/pipelinec_output/c_structs_pkg.pkg.vhd:4408:43:warning: declaration of "data" hides enumeration literal DATA [-Whide]
+  function slv_to_axis8_max_len_limiter_t(data : std_logic_vector) return axis8_max_len_limiter_t;
+                                          ^
+/home/devel/Catboard-Pipelinec/pmod-ethernet/ice_makefile_pipelinec/pipelinec_output/c_structs_pkg.pkg.vhd:4426:33:warning: declaration of "data" hides enumeration literal DATA [-Whide]
+  function rmii_rx_mac_t_to_slv(data : rmii_rx_mac_t) return std_logic_vector;
+                                ^
+/home/devel/Catboard-Pipelinec/pmod-ethernet/ice_makefile_pipelinec/pipelinec_output/c_structs_pkg.pkg.vhd:4428:33:warning: declaration of "data" hides enumeration literal DATA [-Whide]
+  function slv_to_rmii_rx_mac_t(data : std_logic_vector) return rmii_rx_mac_t;
+                                ^
+/home/devel/Catboard-Pipelinec/pmod-ethernet/ice_makefile_pipelinec/pipelinec_output/c_structs_pkg.pkg.vhd:4448:33:warning: declaration of "data" hides enumeration literal DATA [-Whide]
+  function rmii_tx_mac_t_to_slv(data : rmii_tx_mac_t) return std_logic_vector;
+                                ^
+/home/devel/Catboard-Pipelinec/pmod-ethernet/ice_makefile_pipelinec/pipelinec_output/c_structs_pkg.pkg.vhd:4450:33:warning: declaration of "data" hides enumeration literal DATA [-Whide]
+  function slv_to_rmii_tx_mac_t(data : std_logic_vector) return rmii_tx_mac_t;
+                                ^
+/home/devel/Catboard-Pipelinec/pmod-ethernet/ice_makefile_pipelinec/pipelinec_output/c_structs_pkg.pkg.vhd:4466:61:warning: declaration of "data" hides enumeration literal DATA [-Whide]
+  function no_skid_rmii_eth_mac_rx_fifo_FIFO_write_t_to_slv(data : no_skid_rmii_eth_mac_rx_fifo_FIFO_write_t) return std_logic_vector;
+                                                            ^
+/home/devel/Catboard-Pipelinec/pmod-ethernet/ice_makefile_pipelinec/pipelinec_output/c_structs_pkg.pkg.vhd:4468:61:warning: declaration of "data" hides enumeration literal DATA [-Whide]
+  function slv_to_no_skid_rmii_eth_mac_rx_fifo_FIFO_write_t(data : std_logic_vector) return no_skid_rmii_eth_mac_rx_fifo_FIFO_write_t;
+                                                            ^
+/home/devel/Catboard-Pipelinec/pmod-ethernet/ice_makefile_pipelinec/pipelinec_output/c_structs_pkg.pkg.vhd:4486:51:warning: declaration of "data" hides enumeration literal DATA [-Whide]
+  function skid_buf_rmii_eth_mac_rx_fifo_t_to_slv(data : skid_buf_rmii_eth_mac_rx_fifo_t) return std_logic_vector;
+                                                  ^
+/home/devel/Catboard-Pipelinec/pmod-ethernet/ice_makefile_pipelinec/pipelinec_output/c_structs_pkg.pkg.vhd:4488:51:warning: declaration of "data" hides enumeration literal DATA [-Whide]
+  function slv_to_skid_buf_rmii_eth_mac_rx_fifo_t(data : std_logic_vector) return skid_buf_rmii_eth_mac_rx_fifo_t;
+                                                  ^
+/home/devel/Catboard-Pipelinec/pmod-ethernet/ice_makefile_pipelinec/pipelinec_output/c_structs_pkg.pkg.vhd:4504:61:warning: declaration of "data" hides enumeration literal DATA [-Whide]
+  function no_skid_rmii_eth_mac_tx_fifo_FIFO_write_t_to_slv(data : no_skid_rmii_eth_mac_tx_fifo_FIFO_write_t) return std_logic_vector;
+                                                            ^
+/home/devel/Catboard-Pipelinec/pmod-ethernet/ice_makefile_pipelinec/pipelinec_output/c_structs_pkg.pkg.vhd:4506:61:warning: declaration of "data" hides enumeration literal DATA [-Whide]
+  function slv_to_no_skid_rmii_eth_mac_tx_fifo_FIFO_write_t(data : std_logic_vector) return no_skid_rmii_eth_mac_tx_fifo_FIFO_write_t;
+                                                            ^
+/home/devel/Catboard-Pipelinec/pmod-ethernet/ice_makefile_pipelinec/pipelinec_output/c_structs_pkg.pkg.vhd:4524:51:warning: declaration of "data" hides enumeration literal DATA [-Whide]
+  function skid_buf_rmii_eth_mac_tx_fifo_t_to_slv(data : skid_buf_rmii_eth_mac_tx_fifo_t) return std_logic_vector;
+                                                  ^
+/home/devel/Catboard-Pipelinec/pmod-ethernet/ice_makefile_pipelinec/pipelinec_output/c_structs_pkg.pkg.vhd:4526:51:warning: declaration of "data" hides enumeration literal DATA [-Whide]
+  function slv_to_skid_buf_rmii_eth_mac_tx_fifo_t(data : std_logic_vector) return skid_buf_rmii_eth_mac_tx_fifo_t;
+                                                  ^
+/home/devel/Catboard-Pipelinec/pmod-ethernet/ice_makefile_pipelinec/pipelinec_output/c_structs_pkg.pkg.vhd:4546:32:warning: declaration of "data" hides enumeration literal DATA [-Whide]
+  function eth_header_t_to_slv(data : eth_header_t) return std_logic_vector;
+                               ^
+/home/devel/Catboard-Pipelinec/pmod-ethernet/ice_makefile_pipelinec/pipelinec_output/c_structs_pkg.pkg.vhd:4548:32:warning: declaration of "data" hides enumeration literal DATA [-Whide]
+  function slv_to_eth_header_t(data : std_logic_vector) return eth_header_t;
+                               ^
+/home/devel/Catboard-Pipelinec/pmod-ethernet/ice_makefile_pipelinec/pipelinec_output/c_structs_pkg.pkg.vhd:4566:41:warning: declaration of "data" hides enumeration literal DATA [-Whide]
+  function eth_header_t_stream_t_to_slv(data : eth_header_t_stream_t) return std_logic_vector;
+                                        ^
+/home/devel/Catboard-Pipelinec/pmod-ethernet/ice_makefile_pipelinec/pipelinec_output/c_structs_pkg.pkg.vhd:4568:41:warning: declaration of "data" hides enumeration literal DATA [-Whide]
+  function slv_to_eth_header_t_stream_t(data : std_logic_vector) return eth_header_t_stream_t;
+                                        ^
+/home/devel/Catboard-Pipelinec/pmod-ethernet/ice_makefile_pipelinec/pipelinec_output/c_structs_pkg.pkg.vhd:4588:32:warning: declaration of "data" hides enumeration literal DATA [-Whide]
+  function eth8_frame_t_to_slv(data : eth8_frame_t) return std_logic_vector;
+                               ^
+/home/devel/Catboard-Pipelinec/pmod-ethernet/ice_makefile_pipelinec/pipelinec_output/c_structs_pkg.pkg.vhd:4590:32:warning: declaration of "data" hides enumeration literal DATA [-Whide]
+  function slv_to_eth8_frame_t(data : std_logic_vector) return eth8_frame_t;
+                               ^
+/home/devel/Catboard-Pipelinec/pmod-ethernet/ice_makefile_pipelinec/pipelinec_output/c_structs_pkg.pkg.vhd:4608:41:warning: declaration of "data" hides enumeration literal DATA [-Whide]
+  function eth8_frame_t_stream_t_to_slv(data : eth8_frame_t_stream_t) return std_logic_vector;
+                                        ^
+/home/devel/Catboard-Pipelinec/pmod-ethernet/ice_makefile_pipelinec/pipelinec_output/c_structs_pkg.pkg.vhd:4610:41:warning: declaration of "data" hides enumeration literal DATA [-Whide]
+  function slv_to_eth8_frame_t_stream_t(data : std_logic_vector) return eth8_frame_t_stream_t;
+                                        ^
+/home/devel/Catboard-Pipelinec/pmod-ethernet/ice_makefile_pipelinec/pipelinec_output/c_structs_pkg.pkg.vhd:4628:30:warning: declaration of "data" hides enumeration literal DATA [-Whide]
+  function eth_8_rx_t_to_slv(data : eth_8_rx_t) return std_logic_vector;
+                             ^
+/home/devel/Catboard-Pipelinec/pmod-ethernet/ice_makefile_pipelinec/pipelinec_output/c_structs_pkg.pkg.vhd:4630:30:warning: declaration of "data" hides enumeration literal DATA [-Whide]
+  function slv_to_eth_8_rx_t(data : std_logic_vector) return eth_8_rx_t;
+                             ^
+/home/devel/Catboard-Pipelinec/pmod-ethernet/ice_makefile_pipelinec/pipelinec_output/c_structs_pkg.pkg.vhd:4648:30:warning: declaration of "data" hides enumeration literal DATA [-Whide]
+  function eth_8_tx_t_to_slv(data : eth_8_tx_t) return std_logic_vector;
+                             ^
+/home/devel/Catboard-Pipelinec/pmod-ethernet/ice_makefile_pipelinec/pipelinec_output/c_structs_pkg.pkg.vhd:4650:30:warning: declaration of "data" hides enumeration literal DATA [-Whide]
+  function slv_to_eth_8_tx_t(data : std_logic_vector) return eth_8_tx_t;
+                             ^
+/home/devel/Catboard-Pipelinec/pmod-ethernet/ice_makefile_pipelinec/pipelinec_output/c_structs_pkg.pkg.vhd:4668:33:warning: declaration of "data" hides enumeration literal DATA [-Whide]
+  function work_inputs_t_to_slv(data : work_inputs_t) return std_logic_vector;
+                                ^
+/home/devel/Catboard-Pipelinec/pmod-ethernet/ice_makefile_pipelinec/pipelinec_output/c_structs_pkg.pkg.vhd:4670:33:warning: declaration of "data" hides enumeration literal DATA [-Whide]
+  function slv_to_work_inputs_t(data : std_logic_vector) return work_inputs_t;
+                                ^
+/home/devel/Catboard-Pipelinec/pmod-ethernet/ice_makefile_pipelinec/pipelinec_output/c_structs_pkg.pkg.vhd:4688:42:warning: declaration of "data" hides enumeration literal DATA [-Whide]
+  function work_inputs_t_stream_t_to_slv(data : work_inputs_t_stream_t) return std_logic_vector;
+                                         ^
+/home/devel/Catboard-Pipelinec/pmod-ethernet/ice_makefile_pipelinec/pipelinec_output/c_structs_pkg.pkg.vhd:4690:42:warning: declaration of "data" hides enumeration literal DATA [-Whide]
+  function slv_to_work_inputs_t_stream_t(data : std_logic_vector) return work_inputs_t_stream_t;
+                                         ^
+/home/devel/Catboard-Pipelinec/pmod-ethernet/ice_makefile_pipelinec/pipelinec_output/c_structs_pkg.pkg.vhd:4706:34:warning: declaration of "data" hides enumeration literal DATA [-Whide]
+  function work_outputs_t_to_slv(data : work_outputs_t) return std_logic_vector;
+                                 ^
+/home/devel/Catboard-Pipelinec/pmod-ethernet/ice_makefile_pipelinec/pipelinec_output/c_structs_pkg.pkg.vhd:4708:34:warning: declaration of "data" hides enumeration literal DATA [-Whide]
+  function slv_to_work_outputs_t(data : std_logic_vector) return work_outputs_t;
+                                 ^
+/home/devel/Catboard-Pipelinec/pmod-ethernet/ice_makefile_pipelinec/pipelinec_output/c_structs_pkg.pkg.vhd:4726:43:warning: declaration of "data" hides enumeration literal DATA [-Whide]
+  function work_outputs_t_stream_t_to_slv(data : work_outputs_t_stream_t) return std_logic_vector;
+                                          ^
+/home/devel/Catboard-Pipelinec/pmod-ethernet/ice_makefile_pipelinec/pipelinec_output/c_structs_pkg.pkg.vhd:4728:43:warning: declaration of "data" hides enumeration literal DATA [-Whide]
+  function slv_to_work_outputs_t_stream_t(data : std_logic_vector) return work_outputs_t_stream_t;
+                                          ^
+/home/devel/Catboard-Pipelinec/pmod-ethernet/ice_makefile_pipelinec/pipelinec_output/c_structs_pkg.pkg.vhd:4748:55:warning: declaration of "data" hides enumeration literal DATA [-Whide]
+  function work_pipeline_no_handshake_in_reg_t_to_slv(data : work_pipeline_no_handshake_in_reg_t) return std_logic_vector;
+                                                      ^
+/home/devel/Catboard-Pipelinec/pmod-ethernet/ice_makefile_pipelinec/pipelinec_output/c_structs_pkg.pkg.vhd:4750:55:warning: declaration of "data" hides enumeration literal DATA [-Whide]
+  function slv_to_work_pipeline_no_handshake_in_reg_t(data : std_logic_vector) return work_pipeline_no_handshake_in_reg_t;
+                                                      ^
+/home/devel/Catboard-Pipelinec/pmod-ethernet/ice_makefile_pipelinec/pipelinec_output/c_structs_pkg.pkg.vhd:4770:56:warning: declaration of "data" hides enumeration literal DATA [-Whide]
+  function work_pipeline_no_handshake_out_reg_t_to_slv(data : work_pipeline_no_handshake_out_reg_t) return std_logic_vector;
+                                                       ^
+/home/devel/Catboard-Pipelinec/pmod-ethernet/ice_makefile_pipelinec/pipelinec_output/c_structs_pkg.pkg.vhd:4772:56:warning: declaration of "data" hides enumeration literal DATA [-Whide]
+  function slv_to_work_pipeline_no_handshake_out_reg_t(data : std_logic_vector) return work_pipeline_no_handshake_out_reg_t;
+                                                       ^
+/home/devel/Catboard-Pipelinec/pmod-ethernet/ice_makefile_pipelinec/pipelinec_output/c_structs_pkg.pkg.vhd:4792:40:warning: declaration of "data" hides enumeration literal DATA [-Whide]
+  function work_pipeline_FIFO_t_to_slv(data : work_pipeline_FIFO_t) return std_logic_vector;
+                                       ^
+/home/devel/Catboard-Pipelinec/pmod-ethernet/ice_makefile_pipelinec/pipelinec_output/c_structs_pkg.pkg.vhd:4794:40:warning: declaration of "data" hides enumeration literal DATA [-Whide]
+  function slv_to_work_pipeline_FIFO_t(data : std_logic_vector) return work_pipeline_FIFO_t;
+                                       ^
+/home/devel/Catboard-Pipelinec/pmod-ethernet/ice_makefile_pipelinec/pipelinec_output/c_structs_pkg.pkg.vhd:4814:84:warning: declaration of "data" hides enumeration literal DATA [-Whide]
+  function work_deserialize_type_byte_deserializer_deserializer_in_to_out_t_to_slv(data : work_deserialize_type_byte_deserializer_deserializer_in_to_out_t) return std_logic_vector;
+                                                                                   ^
+/home/devel/Catboard-Pipelinec/pmod-ethernet/ice_makefile_pipelinec/pipelinec_output/c_structs_pkg.pkg.vhd:4816:84:warning: declaration of "data" hides enumeration literal DATA [-Whide]
+  function slv_to_work_deserialize_type_byte_deserializer_deserializer_in_to_out_t(data : std_logic_vector) return work_deserialize_type_byte_deserializer_deserializer_in_to_out_t;
+                                                                                   ^
+/home/devel/Catboard-Pipelinec/pmod-ethernet/ice_makefile_pipelinec/pipelinec_output/c_structs_pkg.pkg.vhd:4836:61:warning: declaration of "data" hides enumeration literal DATA [-Whide]
+  function work_deserialize_type_byte_deserializer_t_to_slv(data : work_deserialize_type_byte_deserializer_t) return std_logic_vector;
+                                                            ^
+/home/devel/Catboard-Pipelinec/pmod-ethernet/ice_makefile_pipelinec/pipelinec_output/c_structs_pkg.pkg.vhd:4838:61:warning: declaration of "data" hides enumeration literal DATA [-Whide]
+  function slv_to_work_deserialize_type_byte_deserializer_t(data : std_logic_vector) return work_deserialize_type_byte_deserializer_t;
+                                                            ^
+/home/devel/Catboard-Pipelinec/pmod-ethernet/ice_makefile_pipelinec/pipelinec_output/c_structs_pkg.pkg.vhd:4858:38:warning: declaration of "data" hides enumeration literal DATA [-Whide]
+  function work_deserialize_t_to_slv(data : work_deserialize_t) return std_logic_vector;
+                                     ^
+/home/devel/Catboard-Pipelinec/pmod-ethernet/ice_makefile_pipelinec/pipelinec_output/c_structs_pkg.pkg.vhd:4860:38:warning: declaration of "data" hides enumeration literal DATA [-Whide]
+  function slv_to_work_deserialize_t(data : std_logic_vector) return work_deserialize_t;
+                                     ^
+/home/devel/Catboard-Pipelinec/pmod-ethernet/ice_makefile_pipelinec/pipelinec_output/c_structs_pkg.pkg.vhd:4882:57:warning: declaration of "data" hides enumeration literal DATA [-Whide]
+  function work_serialize_serializer_in_to_out_t_to_slv(data : work_serialize_serializer_in_to_out_t) return std_logic_vector;
+                                                        ^
+/home/devel/Catboard-Pipelinec/pmod-ethernet/ice_makefile_pipelinec/pipelinec_output/c_structs_pkg.pkg.vhd:4884:57:warning: declaration of "data" hides enumeration literal DATA [-Whide]
+  function slv_to_work_serialize_serializer_in_to_out_t(data : std_logic_vector) return work_serialize_serializer_in_to_out_t;
+                                                        ^
+/home/devel/Catboard-Pipelinec/pmod-ethernet/ice_makefile_pipelinec/pipelinec_output/c_structs_pkg.pkg.vhd:4906:36:warning: declaration of "data" hides enumeration literal DATA [-Whide]
+  function work_serialize_t_to_slv(data : work_serialize_t) return std_logic_vector;
+                                   ^
+/home/devel/Catboard-Pipelinec/pmod-ethernet/ice_makefile_pipelinec/pipelinec_output/c_structs_pkg.pkg.vhd:4908:36:warning: declaration of "data" hides enumeration literal DATA [-Whide]
+  function slv_to_work_serialize_t(data : std_logic_vector) return work_serialize_t;
+                                   ^
+/home/devel/Catboard-Pipelinec/pmod-ethernet/ice_makefile_pipelinec/pipelinec_output/c_structs_pkg.pkg.vhd:4924:54:warning: declaration of "data" hides enumeration literal DATA [-Whide]
+  function loopback_headers_fifo_FIFO_write_t_to_slv(data : loopback_headers_fifo_FIFO_write_t) return std_logic_vector;
+                                                     ^
+/home/devel/Catboard-Pipelinec/pmod-ethernet/ice_makefile_pipelinec/pipelinec_output/c_structs_pkg.pkg.vhd:4926:54:warning: declaration of "data" hides enumeration literal DATA [-Whide]
+  function slv_to_loopback_headers_fifo_FIFO_write_t(data : std_logic_vector) return loopback_headers_fifo_FIFO_write_t;
+                                                     ^
+/home/devel/Catboard-Pipelinec/pmod-ethernet/ice_makefile_pipelinec/pipelinec_output/c_structs_pkg.pkg.vhd:4942:37:warning: declaration of "data" hides enumeration literal DATA [-Whide]
+  function uint8_t_array_8_t_to_slv(data : uint8_t_array_8_t) return std_logic_vector;
+                                    ^
+/home/devel/Catboard-Pipelinec/pmod-ethernet/ice_makefile_pipelinec/pipelinec_output/c_structs_pkg.pkg.vhd:4944:37:warning: declaration of "data" hides enumeration literal DATA [-Whide]
+  function slv_to_uint8_t_array_8_t(data : std_logic_vector) return uint8_t_array_8_t;
+                                    ^
+/home/devel/Catboard-Pipelinec/pmod-ethernet/ice_makefile_pipelinec/pipelinec_output/c_structs_pkg.pkg.vhd:4960:37:warning: declaration of "data" hides enumeration literal DATA [-Whide]
+  function uint8_t_array_4_t_to_slv(data : uint8_t_array_4_t) return std_logic_vector;
+                                    ^
+/home/devel/Catboard-Pipelinec/pmod-ethernet/ice_makefile_pipelinec/pipelinec_output/c_structs_pkg.pkg.vhd:4962:37:warning: declaration of "data" hides enumeration literal DATA [-Whide]
+  function slv_to_uint8_t_array_4_t(data : std_logic_vector) return uint8_t_array_4_t;
+                                    ^
+/home/devel/Catboard-Pipelinec/pmod-ethernet/ice_makefile_pipelinec/pipelinec_output/c_structs_pkg.pkg.vhd:4978:37:warning: declaration of "data" hides enumeration literal DATA [-Whide]
+  function uint8_t_array_1_t_to_slv(data : uint8_t_array_1_t) return std_logic_vector;
+                                    ^
+/home/devel/Catboard-Pipelinec/pmod-ethernet/ice_makefile_pipelinec/pipelinec_output/c_structs_pkg.pkg.vhd:4980:37:warning: declaration of "data" hides enumeration literal DATA [-Whide]
+  function slv_to_uint8_t_array_1_t(data : std_logic_vector) return uint8_t_array_1_t;
+                                    ^
+/home/devel/Catboard-Pipelinec/pmod-ethernet/ice_makefile_pipelinec/pipelinec_output/c_structs_pkg.pkg.vhd:4984:33:warning: declaration of "data" hides enumeration literal DATA [-Whide]
+      function axis8_t_1_to_slv(data : axis8_t_1) return std_logic_vector;
+                                ^
+/home/devel/Catboard-Pipelinec/pmod-ethernet/ice_makefile_pipelinec/pipelinec_output/c_structs_pkg.pkg.vhd:4986:33:warning: declaration of "data" hides enumeration literal DATA [-Whide]
+      function slv_to_axis8_t_1(data : std_logic_vector) return axis8_t_1;
+                                ^
+/home/devel/Catboard-Pipelinec/pmod-ethernet/ice_makefile_pipelinec/pipelinec_output/c_structs_pkg.pkg.vhd:4990:38:warning: declaration of "data" hides enumeration literal DATA [-Whide]
+      function eth_header_t_1_to_slv(data : eth_header_t_1) return std_logic_vector;
+                                     ^
+/home/devel/Catboard-Pipelinec/pmod-ethernet/ice_makefile_pipelinec/pipelinec_output/c_structs_pkg.pkg.vhd:4992:38:warning: declaration of "data" hides enumeration literal DATA [-Whide]
+      function slv_to_eth_header_t_1(data : std_logic_vector) return eth_header_t_1;
+                                     ^
+/home/devel/Catboard-Pipelinec/pmod-ethernet/ice_makefile_pipelinec/pipelinec_output/c_structs_pkg.pkg.vhd:5010:60:warning: declaration of "data" hides enumeration literal DATA [-Whide]
+  function no_skid_rmii_eth_mac_rx_fifo_FIFO_read_t_to_slv(data : no_skid_rmii_eth_mac_rx_fifo_FIFO_read_t) return std_logic_vector;
+                                                           ^
+/home/devel/Catboard-Pipelinec/pmod-ethernet/ice_makefile_pipelinec/pipelinec_output/c_structs_pkg.pkg.vhd:5012:60:warning: declaration of "data" hides enumeration literal DATA [-Whide]
+  function slv_to_no_skid_rmii_eth_mac_rx_fifo_FIFO_read_t(data : std_logic_vector) return no_skid_rmii_eth_mac_rx_fifo_FIFO_read_t;
+                                                           ^
+/home/devel/Catboard-Pipelinec/pmod-ethernet/ice_makefile_pipelinec/pipelinec_output/c_structs_pkg.pkg.vhd:5030:60:warning: declaration of "data" hides enumeration literal DATA [-Whide]
+  function no_skid_rmii_eth_mac_tx_fifo_FIFO_read_t_to_slv(data : no_skid_rmii_eth_mac_tx_fifo_FIFO_read_t) return std_logic_vector;
+                                                           ^
+/home/devel/Catboard-Pipelinec/pmod-ethernet/ice_makefile_pipelinec/pipelinec_output/c_structs_pkg.pkg.vhd:5032:60:warning: declaration of "data" hides enumeration literal DATA [-Whide]
+  function slv_to_no_skid_rmii_eth_mac_tx_fifo_FIFO_read_t(data : std_logic_vector) return no_skid_rmii_eth_mac_tx_fifo_FIFO_read_t;
+                                                           ^
+/home/devel/Catboard-Pipelinec/pmod-ethernet/ice_makefile_pipelinec/pipelinec_output/c_structs_pkg.pkg.vhd:5050:53:warning: declaration of "data" hides enumeration literal DATA [-Whide]
+  function loopback_headers_fifo_FIFO_read_t_to_slv(data : loopback_headers_fifo_FIFO_read_t) return std_logic_vector;
+                                                    ^
+/home/devel/Catboard-Pipelinec/pmod-ethernet/ice_makefile_pipelinec/pipelinec_output/c_structs_pkg.pkg.vhd:5052:53:warning: declaration of "data" hides enumeration literal DATA [-Whide]
+  function slv_to_loopback_headers_fifo_FIFO_read_t(data : std_logic_vector) return loopback_headers_fifo_FIFO_read_t;
+                                                    ^
+/home/devel/Catboard-Pipelinec/pmod-ethernet/ice_makefile_pipelinec/pipelinec_output/c_structs_pkg.pkg.vhd:5152:33:warning: declaration of "data" hides enumeration literal DATA [-Whide]
+      function uint8_t_6_to_slv(data : uint8_t_6) return std_logic_vector is
+                                ^
+/home/devel/Catboard-Pipelinec/pmod-ethernet/ice_makefile_pipelinec/pipelinec_output/c_structs_pkg.pkg.vhd:5178:33:warning: declaration of "data" hides enumeration literal DATA [-Whide]
+      function slv_to_uint8_t_6(data : std_logic_vector) return uint8_t_6 is
+                                ^
+/home/devel/Catboard-Pipelinec/pmod-ethernet/ice_makefile_pipelinec/pipelinec_output/c_structs_pkg.pkg.vhd:5211:34:warning: declaration of "data" hides enumeration literal DATA [-Whide]
+      function uint2_t_20_to_slv(data : uint2_t_20) return std_logic_vector is
+                                 ^
+/home/devel/Catboard-Pipelinec/pmod-ethernet/ice_makefile_pipelinec/pipelinec_output/c_structs_pkg.pkg.vhd:5279:34:warning: declaration of "data" hides enumeration literal DATA [-Whide]
+      function slv_to_uint2_t_20(data : std_logic_vector) return uint2_t_20 is
+                                 ^
+/home/devel/Catboard-Pipelinec/pmod-ethernet/ice_makefile_pipelinec/pipelinec_output/c_structs_pkg.pkg.vhd:5368:34:warning: declaration of "data" hides enumeration literal DATA [-Whide]
+      function uint1_t_20_to_slv(data : uint1_t_20) return std_logic_vector is
+                                 ^
+/home/devel/Catboard-Pipelinec/pmod-ethernet/ice_makefile_pipelinec/pipelinec_output/c_structs_pkg.pkg.vhd:5436:34:warning: declaration of "data" hides enumeration literal DATA [-Whide]
+      function slv_to_uint1_t_20(data : std_logic_vector) return uint1_t_20 is
+                                 ^
+/home/devel/Catboard-Pipelinec/pmod-ethernet/ice_makefile_pipelinec/pipelinec_output/c_structs_pkg.pkg.vhd:5525:35:warning: declaration of "data" hides enumeration literal DATA [-Whide]
+      function uint32_t_16_to_slv(data : uint32_t_16) return std_logic_vector is
+                                  ^
+/home/devel/Catboard-Pipelinec/pmod-ethernet/ice_makefile_pipelinec/pipelinec_output/c_structs_pkg.pkg.vhd:5581:35:warning: declaration of "data" hides enumeration literal DATA [-Whide]
+      function slv_to_uint32_t_16(data : std_logic_vector) return uint32_t_16 is
+                                  ^
+/home/devel/Catboard-Pipelinec/pmod-ethernet/ice_makefile_pipelinec/pipelinec_output/c_structs_pkg.pkg.vhd:5654:33:warning: declaration of "data" hides enumeration literal DATA [-Whide]
+      function uint8_t_1_to_slv(data : uint8_t_1) return std_logic_vector is
+                                ^
+/home/devel/Catboard-Pipelinec/pmod-ethernet/ice_makefile_pipelinec/pipelinec_output/c_structs_pkg.pkg.vhd:5665:33:warning: declaration of "data" hides enumeration literal DATA [-Whide]
+      function slv_to_uint8_t_1(data : std_logic_vector) return uint8_t_1 is
+                                ^
+/home/devel/Catboard-Pipelinec/pmod-ethernet/ice_makefile_pipelinec/pipelinec_output/c_structs_pkg.pkg.vhd:5678:33:warning: declaration of "data" hides enumeration literal DATA [-Whide]
+      function uint8_t_8_to_slv(data : uint8_t_8) return std_logic_vector is
+                                ^
+/home/devel/Catboard-Pipelinec/pmod-ethernet/ice_makefile_pipelinec/pipelinec_output/c_structs_pkg.pkg.vhd:5710:33:warning: declaration of "data" hides enumeration literal DATA [-Whide]
+      function slv_to_uint8_t_8(data : std_logic_vector) return uint8_t_8 is
+                                ^
+/home/devel/Catboard-Pipelinec/pmod-ethernet/ice_makefile_pipelinec/pipelinec_output/c_structs_pkg.pkg.vhd:5751:33:warning: declaration of "data" hides enumeration literal DATA [-Whide]
+      function uint8_t_4_to_slv(data : uint8_t_4) return std_logic_vector is
+                                ^
+/home/devel/Catboard-Pipelinec/pmod-ethernet/ice_makefile_pipelinec/pipelinec_output/c_structs_pkg.pkg.vhd:5771:33:warning: declaration of "data" hides enumeration literal DATA [-Whide]
+      function slv_to_uint8_t_4(data : std_logic_vector) return uint8_t_4 is
+                                ^
+/home/devel/Catboard-Pipelinec/pmod-ethernet/ice_makefile_pipelinec/pipelinec_output/c_structs_pkg.pkg.vhd:5796:33:warning: declaration of "data" hides enumeration literal DATA [-Whide]
+      function uint1_t_1_to_slv(data : uint1_t_1) return std_logic_vector is
+                                ^
+/home/devel/Catboard-Pipelinec/pmod-ethernet/ice_makefile_pipelinec/pipelinec_output/c_structs_pkg.pkg.vhd:5807:33:warning: declaration of "data" hides enumeration literal DATA [-Whide]
+      function slv_to_uint1_t_1(data : std_logic_vector) return uint1_t_1 is
+                                ^
+/home/devel/Catboard-Pipelinec/pmod-ethernet/ice_makefile_pipelinec/pipelinec_output/c_structs_pkg.pkg.vhd:5820:33:warning: declaration of "data" hides enumeration literal DATA [-Whide]
+      function uint1_t_4_to_slv(data : uint1_t_4) return std_logic_vector is
+                                ^
+/home/devel/Catboard-Pipelinec/pmod-ethernet/ice_makefile_pipelinec/pipelinec_output/c_structs_pkg.pkg.vhd:5840:33:warning: declaration of "data" hides enumeration literal DATA [-Whide]
+      function slv_to_uint1_t_4(data : std_logic_vector) return uint1_t_4 is
+                                ^
+/home/devel/Catboard-Pipelinec/pmod-ethernet/ice_makefile_pipelinec/pipelinec_output/c_structs_pkg.pkg.vhd:5865:33:warning: declaration of "data" hides enumeration literal DATA [-Whide]
+      function uint8_t_2_to_slv(data : uint8_t_2) return std_logic_vector is
+                                ^
+/home/devel/Catboard-Pipelinec/pmod-ethernet/ice_makefile_pipelinec/pipelinec_output/c_structs_pkg.pkg.vhd:5879:33:warning: declaration of "data" hides enumeration literal DATA [-Whide]
+      function slv_to_uint8_t_2(data : std_logic_vector) return uint8_t_2 is
+                                ^
+/home/devel/Catboard-Pipelinec/pmod-ethernet/ice_makefile_pipelinec/pipelinec_output/c_structs_pkg.pkg.vhd:5896:33:warning: declaration of "data" hides enumeration literal DATA [-Whide]
+      function uint1_t_2_to_slv(data : uint1_t_2) return std_logic_vector is
+                                ^
+/home/devel/Catboard-Pipelinec/pmod-ethernet/ice_makefile_pipelinec/pipelinec_output/c_structs_pkg.pkg.vhd:5910:33:warning: declaration of "data" hides enumeration literal DATA [-Whide]
+      function slv_to_uint1_t_2(data : std_logic_vector) return uint1_t_2 is
+                                ^
+/home/devel/Catboard-Pipelinec/pmod-ethernet/ice_makefile_pipelinec/pipelinec_output/c_structs_pkg.pkg.vhd:5927:32:warning: declaration of "data" hides enumeration literal DATA [-Whide]
+      function int8_t_2_to_slv(data : int8_t_2) return std_logic_vector is
+                               ^
+/home/devel/Catboard-Pipelinec/pmod-ethernet/ice_makefile_pipelinec/pipelinec_output/c_structs_pkg.pkg.vhd:5941:32:warning: declaration of "data" hides enumeration literal DATA [-Whide]
+      function slv_to_int8_t_2(data : std_logic_vector) return int8_t_2 is
+                               ^
+/home/devel/Catboard-Pipelinec/pmod-ethernet/ice_makefile_pipelinec/pipelinec_output/c_structs_pkg.pkg.vhd:5958:34:warning: declaration of "data" hides enumeration literal DATA [-Whide]
+      function int8_t_2_2_to_slv(data : int8_t_2_2) return std_logic_vector is
+                                 ^
+/home/devel/Catboard-Pipelinec/pmod-ethernet/ice_makefile_pipelinec/pipelinec_output/c_structs_pkg.pkg.vhd:5972:34:warning: declaration of "data" hides enumeration literal DATA [-Whide]
+      function slv_to_int8_t_2_2(data : std_logic_vector) return int8_t_2_2 is
+                                 ^
+/home/devel/Catboard-Pipelinec/pmod-ethernet/ice_makefile_pipelinec/pipelinec_output/c_structs_pkg.pkg.vhd:5989:27:warning: declaration of "data" hides enumeration literal DATA [-Whide]
+  function axis8_t_to_slv(data : axis8_t) return std_logic_vector is
+                          ^
+/home/devel/Catboard-Pipelinec/pmod-ethernet/ice_makefile_pipelinec/pipelinec_output/c_structs_pkg.pkg.vhd:6006:27:warning: declaration of "data" hides enumeration literal DATA [-Whide]
+  function slv_to_axis8_t(data : std_logic_vector) return axis8_t is
+                          ^
+/home/devel/Catboard-Pipelinec/pmod-ethernet/ice_makefile_pipelinec/pipelinec_output/c_structs_pkg.pkg.vhd:6029:36:warning: declaration of "data" hides enumeration literal DATA [-Whide]
+  function axis8_t_stream_t_to_slv(data : axis8_t_stream_t) return std_logic_vector is
+                                   ^
+/home/devel/Catboard-Pipelinec/pmod-ethernet/ice_makefile_pipelinec/pipelinec_output/c_structs_pkg.pkg.vhd:6043:36:warning: declaration of "data" hides enumeration literal DATA [-Whide]
+  function slv_to_axis8_t_stream_t(data : std_logic_vector) return axis8_t_stream_t is
+                                   ^
+/home/devel/Catboard-Pipelinec/pmod-ethernet/ice_makefile_pipelinec/pipelinec_output/c_structs_pkg.pkg.vhd:6061:28:warning: declaration of "data" hides enumeration literal DATA [-Whide]
+  function axis32_t_to_slv(data : axis32_t) return std_logic_vector is
+                           ^
+/home/devel/Catboard-Pipelinec/pmod-ethernet/ice_makefile_pipelinec/pipelinec_output/c_structs_pkg.pkg.vhd:6078:28:warning: declaration of "data" hides enumeration literal DATA [-Whide]
+  function slv_to_axis32_t(data : std_logic_vector) return axis32_t is
+                           ^
+/home/devel/Catboard-Pipelinec/pmod-ethernet/ice_makefile_pipelinec/pipelinec_output/c_structs_pkg.pkg.vhd:6101:37:warning: declaration of "data" hides enumeration literal DATA [-Whide]
+  function axis32_t_stream_t_to_slv(data : axis32_t_stream_t) return std_logic_vector is
+                                    ^
+/home/devel/Catboard-Pipelinec/pmod-ethernet/ice_makefile_pipelinec/pipelinec_output/c_structs_pkg.pkg.vhd:6115:37:warning: declaration of "data" hides enumeration literal DATA [-Whide]
+  function slv_to_axis32_t_stream_t(data : std_logic_vector) return axis32_t_stream_t is
+                                    ^
+/home/devel/Catboard-Pipelinec/pmod-ethernet/ice_makefile_pipelinec/pipelinec_output/c_structs_pkg.pkg.vhd:6133:28:warning: declaration of "data" hides enumeration literal DATA [-Whide]
+  function axis16_t_to_slv(data : axis16_t) return std_logic_vector is
+                           ^
+/home/devel/Catboard-Pipelinec/pmod-ethernet/ice_makefile_pipelinec/pipelinec_output/c_structs_pkg.pkg.vhd:6150:28:warning: declaration of "data" hides enumeration literal DATA [-Whide]
+  function slv_to_axis16_t(data : std_logic_vector) return axis16_t is
+                           ^
+/home/devel/Catboard-Pipelinec/pmod-ethernet/ice_makefile_pipelinec/pipelinec_output/c_structs_pkg.pkg.vhd:6173:37:warning: declaration of "data" hides enumeration literal DATA [-Whide]
+  function axis16_t_stream_t_to_slv(data : axis16_t_stream_t) return std_logic_vector is
+                                    ^
+/home/devel/Catboard-Pipelinec/pmod-ethernet/ice_makefile_pipelinec/pipelinec_output/c_structs_pkg.pkg.vhd:6187:37:warning: declaration of "data" hides enumeration literal DATA [-Whide]
+  function slv_to_axis16_t_stream_t(data : std_logic_vector) return axis16_t_stream_t is
+                                    ^
+/home/devel/Catboard-Pipelinec/pmod-ethernet/ice_makefile_pipelinec/pipelinec_output/c_structs_pkg.pkg.vhd:6205:37:warning: declaration of "data" hides enumeration literal DATA [-Whide]
+  function axis8_to_axis32_t_to_slv(data : axis8_to_axis32_t) return std_logic_vector is
+                                    ^
+/home/devel/Catboard-Pipelinec/pmod-ethernet/ice_makefile_pipelinec/pipelinec_output/c_structs_pkg.pkg.vhd:6219:37:warning: declaration of "data" hides enumeration literal DATA [-Whide]
+  function slv_to_axis8_to_axis32_t(data : std_logic_vector) return axis8_to_axis32_t is
+                                    ^
+/home/devel/Catboard-Pipelinec/pmod-ethernet/ice_makefile_pipelinec/pipelinec_output/c_structs_pkg.pkg.vhd:6237:37:warning: declaration of "data" hides enumeration literal DATA [-Whide]
+  function axis32_to_axis8_t_to_slv(data : axis32_to_axis8_t) return std_logic_vector is
+                                    ^
+/home/devel/Catboard-Pipelinec/pmod-ethernet/ice_makefile_pipelinec/pipelinec_output/c_structs_pkg.pkg.vhd:6251:37:warning: declaration of "data" hides enumeration literal DATA [-Whide]
+  function slv_to_axis32_to_axis8_t(data : std_logic_vector) return axis32_to_axis8_t is
+                                    ^
+/home/devel/Catboard-Pipelinec/pmod-ethernet/ice_makefile_pipelinec/pipelinec_output/c_structs_pkg.pkg.vhd:6269:43:warning: declaration of "data" hides enumeration literal DATA [-Whide]
+  function axis8_max_len_limiter_t_to_slv(data : axis8_max_len_limiter_t) return std_logic_vector is
+                                          ^
+/home/devel/Catboard-Pipelinec/pmod-ethernet/ice_makefile_pipelinec/pipelinec_output/c_structs_pkg.pkg.vhd:6283:43:warning: declaration of "data" hides enumeration literal DATA [-Whide]
+  function slv_to_axis8_max_len_limiter_t(data : std_logic_vector) return axis8_max_len_limiter_t is
+                                          ^
+/home/devel/Catboard-Pipelinec/pmod-ethernet/ice_makefile_pipelinec/pipelinec_output/c_structs_pkg.pkg.vhd:6301:33:warning: declaration of "data" hides enumeration literal DATA [-Whide]
+  function rmii_rx_mac_t_to_slv(data : rmii_rx_mac_t) return std_logic_vector is
+                                ^
+/home/devel/Catboard-Pipelinec/pmod-ethernet/ice_makefile_pipelinec/pipelinec_output/c_structs_pkg.pkg.vhd:6315:33:warning: declaration of "data" hides enumeration literal DATA [-Whide]
+  function slv_to_rmii_rx_mac_t(data : std_logic_vector) return rmii_rx_mac_t is
+                                ^
+/home/devel/Catboard-Pipelinec/pmod-ethernet/ice_makefile_pipelinec/pipelinec_output/c_structs_pkg.pkg.vhd:6333:33:warning: declaration of "data" hides enumeration literal DATA [-Whide]
+  function rmii_tx_mac_t_to_slv(data : rmii_tx_mac_t) return std_logic_vector is
+                                ^
+/home/devel/Catboard-Pipelinec/pmod-ethernet/ice_makefile_pipelinec/pipelinec_output/c_structs_pkg.pkg.vhd:6350:33:warning: declaration of "data" hides enumeration literal DATA [-Whide]
+  function slv_to_rmii_tx_mac_t(data : std_logic_vector) return rmii_tx_mac_t is
+                                ^
+/home/devel/Catboard-Pipelinec/pmod-ethernet/ice_makefile_pipelinec/pipelinec_output/c_structs_pkg.pkg.vhd:6373:61:warning: declaration of "data" hides enumeration literal DATA [-Whide]
+  function no_skid_rmii_eth_mac_rx_fifo_FIFO_write_t_to_slv(data : no_skid_rmii_eth_mac_rx_fifo_FIFO_write_t) return std_logic_vector is
+                                                            ^
+/home/devel/Catboard-Pipelinec/pmod-ethernet/ice_makefile_pipelinec/pipelinec_output/c_structs_pkg.pkg.vhd:6384:61:warning: declaration of "data" hides enumeration literal DATA [-Whide]
+  function slv_to_no_skid_rmii_eth_mac_rx_fifo_FIFO_write_t(data : std_logic_vector) return no_skid_rmii_eth_mac_rx_fifo_FIFO_write_t is
+                                                            ^
+/home/devel/Catboard-Pipelinec/pmod-ethernet/ice_makefile_pipelinec/pipelinec_output/c_structs_pkg.pkg.vhd:6397:51:warning: declaration of "data" hides enumeration literal DATA [-Whide]
+  function skid_buf_rmii_eth_mac_rx_fifo_t_to_slv(data : skid_buf_rmii_eth_mac_rx_fifo_t) return std_logic_vector is
+                                                  ^
+/home/devel/Catboard-Pipelinec/pmod-ethernet/ice_makefile_pipelinec/pipelinec_output/c_structs_pkg.pkg.vhd:6411:51:warning: declaration of "data" hides enumeration literal DATA [-Whide]
+  function slv_to_skid_buf_rmii_eth_mac_rx_fifo_t(data : std_logic_vector) return skid_buf_rmii_eth_mac_rx_fifo_t is
+                                                  ^
+/home/devel/Catboard-Pipelinec/pmod-ethernet/ice_makefile_pipelinec/pipelinec_output/c_structs_pkg.pkg.vhd:6429:61:warning: declaration of "data" hides enumeration literal DATA [-Whide]
+  function no_skid_rmii_eth_mac_tx_fifo_FIFO_write_t_to_slv(data : no_skid_rmii_eth_mac_tx_fifo_FIFO_write_t) return std_logic_vector is
+                                                            ^
+/home/devel/Catboard-Pipelinec/pmod-ethernet/ice_makefile_pipelinec/pipelinec_output/c_structs_pkg.pkg.vhd:6440:61:warning: declaration of "data" hides enumeration literal DATA [-Whide]
+  function slv_to_no_skid_rmii_eth_mac_tx_fifo_FIFO_write_t(data : std_logic_vector) return no_skid_rmii_eth_mac_tx_fifo_FIFO_write_t is
+                                                            ^
+/home/devel/Catboard-Pipelinec/pmod-ethernet/ice_makefile_pipelinec/pipelinec_output/c_structs_pkg.pkg.vhd:6453:51:warning: declaration of "data" hides enumeration literal DATA [-Whide]
+  function skid_buf_rmii_eth_mac_tx_fifo_t_to_slv(data : skid_buf_rmii_eth_mac_tx_fifo_t) return std_logic_vector is
+                                                  ^
+/home/devel/Catboard-Pipelinec/pmod-ethernet/ice_makefile_pipelinec/pipelinec_output/c_structs_pkg.pkg.vhd:6467:51:warning: declaration of "data" hides enumeration literal DATA [-Whide]
+  function slv_to_skid_buf_rmii_eth_mac_tx_fifo_t(data : std_logic_vector) return skid_buf_rmii_eth_mac_tx_fifo_t is
+                                                  ^
+/home/devel/Catboard-Pipelinec/pmod-ethernet/ice_makefile_pipelinec/pipelinec_output/c_structs_pkg.pkg.vhd:6485:32:warning: declaration of "data" hides enumeration literal DATA [-Whide]
+  function eth_header_t_to_slv(data : eth_header_t) return std_logic_vector is
+                               ^
+/home/devel/Catboard-Pipelinec/pmod-ethernet/ice_makefile_pipelinec/pipelinec_output/c_structs_pkg.pkg.vhd:6502:32:warning: declaration of "data" hides enumeration literal DATA [-Whide]
+  function slv_to_eth_header_t(data : std_logic_vector) return eth_header_t is
+                               ^
+/home/devel/Catboard-Pipelinec/pmod-ethernet/ice_makefile_pipelinec/pipelinec_output/c_structs_pkg.pkg.vhd:6525:41:warning: declaration of "data" hides enumeration literal DATA [-Whide]
+  function eth_header_t_stream_t_to_slv(data : eth_header_t_stream_t) return std_logic_vector is
+                                        ^
+/home/devel/Catboard-Pipelinec/pmod-ethernet/ice_makefile_pipelinec/pipelinec_output/c_structs_pkg.pkg.vhd:6539:41:warning: declaration of "data" hides enumeration literal DATA [-Whide]
+  function slv_to_eth_header_t_stream_t(data : std_logic_vector) return eth_header_t_stream_t is
+                                        ^
+/home/devel/Catboard-Pipelinec/pmod-ethernet/ice_makefile_pipelinec/pipelinec_output/c_structs_pkg.pkg.vhd:6557:32:warning: declaration of "data" hides enumeration literal DATA [-Whide]
+  function eth8_frame_t_to_slv(data : eth8_frame_t) return std_logic_vector is
+                               ^
+/home/devel/Catboard-Pipelinec/pmod-ethernet/ice_makefile_pipelinec/pipelinec_output/c_structs_pkg.pkg.vhd:6574:32:warning: declaration of "data" hides enumeration literal DATA [-Whide]
+  function slv_to_eth8_frame_t(data : std_logic_vector) return eth8_frame_t is
+                               ^
+/home/devel/Catboard-Pipelinec/pmod-ethernet/ice_makefile_pipelinec/pipelinec_output/c_structs_pkg.pkg.vhd:6597:41:warning: declaration of "data" hides enumeration literal DATA [-Whide]
+  function eth8_frame_t_stream_t_to_slv(data : eth8_frame_t_stream_t) return std_logic_vector is
+                                        ^
+/home/devel/Catboard-Pipelinec/pmod-ethernet/ice_makefile_pipelinec/pipelinec_output/c_structs_pkg.pkg.vhd:6611:41:warning: declaration of "data" hides enumeration literal DATA [-Whide]
+  function slv_to_eth8_frame_t_stream_t(data : std_logic_vector) return eth8_frame_t_stream_t is
+                                        ^
+/home/devel/Catboard-Pipelinec/pmod-ethernet/ice_makefile_pipelinec/pipelinec_output/c_structs_pkg.pkg.vhd:6629:30:warning: declaration of "data" hides enumeration literal DATA [-Whide]
+  function eth_8_rx_t_to_slv(data : eth_8_rx_t) return std_logic_vector is
+                             ^
+/home/devel/Catboard-Pipelinec/pmod-ethernet/ice_makefile_pipelinec/pipelinec_output/c_structs_pkg.pkg.vhd:6643:30:warning: declaration of "data" hides enumeration literal DATA [-Whide]
+  function slv_to_eth_8_rx_t(data : std_logic_vector) return eth_8_rx_t is
+                             ^
+/home/devel/Catboard-Pipelinec/pmod-ethernet/ice_makefile_pipelinec/pipelinec_output/c_structs_pkg.pkg.vhd:6661:30:warning: declaration of "data" hides enumeration literal DATA [-Whide]
+  function eth_8_tx_t_to_slv(data : eth_8_tx_t) return std_logic_vector is
+                             ^
+/home/devel/Catboard-Pipelinec/pmod-ethernet/ice_makefile_pipelinec/pipelinec_output/c_structs_pkg.pkg.vhd:6675:30:warning: declaration of "data" hides enumeration literal DATA [-Whide]
+  function slv_to_eth_8_tx_t(data : std_logic_vector) return eth_8_tx_t is
+                             ^
+/home/devel/Catboard-Pipelinec/pmod-ethernet/ice_makefile_pipelinec/pipelinec_output/c_structs_pkg.pkg.vhd:6693:33:warning: declaration of "data" hides enumeration literal DATA [-Whide]
+  function work_inputs_t_to_slv(data : work_inputs_t) return std_logic_vector is
+                                ^
+/home/devel/Catboard-Pipelinec/pmod-ethernet/ice_makefile_pipelinec/pipelinec_output/c_structs_pkg.pkg.vhd:6707:33:warning: declaration of "data" hides enumeration literal DATA [-Whide]
+  function slv_to_work_inputs_t(data : std_logic_vector) return work_inputs_t is
+                                ^
+/home/devel/Catboard-Pipelinec/pmod-ethernet/ice_makefile_pipelinec/pipelinec_output/c_structs_pkg.pkg.vhd:6725:42:warning: declaration of "data" hides enumeration literal DATA [-Whide]
+  function work_inputs_t_stream_t_to_slv(data : work_inputs_t_stream_t) return std_logic_vector is
+                                         ^
+/home/devel/Catboard-Pipelinec/pmod-ethernet/ice_makefile_pipelinec/pipelinec_output/c_structs_pkg.pkg.vhd:6739:42:warning: declaration of "data" hides enumeration literal DATA [-Whide]
+  function slv_to_work_inputs_t_stream_t(data : std_logic_vector) return work_inputs_t_stream_t is
+                                         ^
+/home/devel/Catboard-Pipelinec/pmod-ethernet/ice_makefile_pipelinec/pipelinec_output/c_structs_pkg.pkg.vhd:6757:34:warning: declaration of "data" hides enumeration literal DATA [-Whide]
+  function work_outputs_t_to_slv(data : work_outputs_t) return std_logic_vector is
+                                 ^
+/home/devel/Catboard-Pipelinec/pmod-ethernet/ice_makefile_pipelinec/pipelinec_output/c_structs_pkg.pkg.vhd:6768:34:warning: declaration of "data" hides enumeration literal DATA [-Whide]
+  function slv_to_work_outputs_t(data : std_logic_vector) return work_outputs_t is
+                                 ^
+/home/devel/Catboard-Pipelinec/pmod-ethernet/ice_makefile_pipelinec/pipelinec_output/c_structs_pkg.pkg.vhd:6781:43:warning: declaration of "data" hides enumeration literal DATA [-Whide]
+  function work_outputs_t_stream_t_to_slv(data : work_outputs_t_stream_t) return std_logic_vector is
+                                          ^
+/home/devel/Catboard-Pipelinec/pmod-ethernet/ice_makefile_pipelinec/pipelinec_output/c_structs_pkg.pkg.vhd:6795:43:warning: declaration of "data" hides enumeration literal DATA [-Whide]
+  function slv_to_work_outputs_t_stream_t(data : std_logic_vector) return work_outputs_t_stream_t is
+                                          ^
+/home/devel/Catboard-Pipelinec/pmod-ethernet/ice_makefile_pipelinec/pipelinec_output/c_structs_pkg.pkg.vhd:6813:55:warning: declaration of "data" hides enumeration literal DATA [-Whide]
+  function work_pipeline_no_handshake_in_reg_t_to_slv(data : work_pipeline_no_handshake_in_reg_t) return std_logic_vector is
+                                                      ^
+/home/devel/Catboard-Pipelinec/pmod-ethernet/ice_makefile_pipelinec/pipelinec_output/c_structs_pkg.pkg.vhd:6830:55:warning: declaration of "data" hides enumeration literal DATA [-Whide]
+  function slv_to_work_pipeline_no_handshake_in_reg_t(data : std_logic_vector) return work_pipeline_no_handshake_in_reg_t is
+                                                      ^
+/home/devel/Catboard-Pipelinec/pmod-ethernet/ice_makefile_pipelinec/pipelinec_output/c_structs_pkg.pkg.vhd:6853:56:warning: declaration of "data" hides enumeration literal DATA [-Whide]
+  function work_pipeline_no_handshake_out_reg_t_to_slv(data : work_pipeline_no_handshake_out_reg_t) return std_logic_vector is
+                                                       ^
+/home/devel/Catboard-Pipelinec/pmod-ethernet/ice_makefile_pipelinec/pipelinec_output/c_structs_pkg.pkg.vhd:6870:56:warning: declaration of "data" hides enumeration literal DATA [-Whide]
+  function slv_to_work_pipeline_no_handshake_out_reg_t(data : std_logic_vector) return work_pipeline_no_handshake_out_reg_t is
+                                                       ^
+/home/devel/Catboard-Pipelinec/pmod-ethernet/ice_makefile_pipelinec/pipelinec_output/c_structs_pkg.pkg.vhd:6893:40:warning: declaration of "data" hides enumeration literal DATA [-Whide]
+  function work_pipeline_FIFO_t_to_slv(data : work_pipeline_FIFO_t) return std_logic_vector is
+                                       ^
+/home/devel/Catboard-Pipelinec/pmod-ethernet/ice_makefile_pipelinec/pipelinec_output/c_structs_pkg.pkg.vhd:6910:40:warning: declaration of "data" hides enumeration literal DATA [-Whide]
+  function slv_to_work_pipeline_FIFO_t(data : std_logic_vector) return work_pipeline_FIFO_t is
+                                       ^
+/home/devel/Catboard-Pipelinec/pmod-ethernet/ice_makefile_pipelinec/pipelinec_output/c_structs_pkg.pkg.vhd:6933:84:warning: declaration of "data" hides enumeration literal DATA [-Whide]
+  function work_deserialize_type_byte_deserializer_deserializer_in_to_out_t_to_slv(data : work_deserialize_type_byte_deserializer_deserializer_in_to_out_t) return std_logic_vector is
+                                                                                   ^
+/home/devel/Catboard-Pipelinec/pmod-ethernet/ice_makefile_pipelinec/pipelinec_output/c_structs_pkg.pkg.vhd:6950:84:warning: declaration of "data" hides enumeration literal DATA [-Whide]
+  function slv_to_work_deserialize_type_byte_deserializer_deserializer_in_to_out_t(data : std_logic_vector) return work_deserialize_type_byte_deserializer_deserializer_in_to_out_t is
+                                                                                   ^
+/home/devel/Catboard-Pipelinec/pmod-ethernet/ice_makefile_pipelinec/pipelinec_output/c_structs_pkg.pkg.vhd:6973:61:warning: declaration of "data" hides enumeration literal DATA [-Whide]
+  function work_deserialize_type_byte_deserializer_t_to_slv(data : work_deserialize_type_byte_deserializer_t) return std_logic_vector is
+                                                            ^
+/home/devel/Catboard-Pipelinec/pmod-ethernet/ice_makefile_pipelinec/pipelinec_output/c_structs_pkg.pkg.vhd:6990:61:warning: declaration of "data" hides enumeration literal DATA [-Whide]
+  function slv_to_work_deserialize_type_byte_deserializer_t(data : std_logic_vector) return work_deserialize_type_byte_deserializer_t is
+                                                            ^
+/home/devel/Catboard-Pipelinec/pmod-ethernet/ice_makefile_pipelinec/pipelinec_output/c_structs_pkg.pkg.vhd:7013:38:warning: declaration of "data" hides enumeration literal DATA [-Whide]
+  function work_deserialize_t_to_slv(data : work_deserialize_t) return std_logic_vector is
+                                     ^
+/home/devel/Catboard-Pipelinec/pmod-ethernet/ice_makefile_pipelinec/pipelinec_output/c_structs_pkg.pkg.vhd:7030:38:warning: declaration of "data" hides enumeration literal DATA [-Whide]
+  function slv_to_work_deserialize_t(data : std_logic_vector) return work_deserialize_t is
+                                     ^
+/home/devel/Catboard-Pipelinec/pmod-ethernet/ice_makefile_pipelinec/pipelinec_output/c_structs_pkg.pkg.vhd:7053:57:warning: declaration of "data" hides enumeration literal DATA [-Whide]
+  function work_serialize_serializer_in_to_out_t_to_slv(data : work_serialize_serializer_in_to_out_t) return std_logic_vector is
+                                                        ^
+/home/devel/Catboard-Pipelinec/pmod-ethernet/ice_makefile_pipelinec/pipelinec_output/c_structs_pkg.pkg.vhd:7073:57:warning: declaration of "data" hides enumeration literal DATA [-Whide]
+  function slv_to_work_serialize_serializer_in_to_out_t(data : std_logic_vector) return work_serialize_serializer_in_to_out_t is
+                                                        ^
+/home/devel/Catboard-Pipelinec/pmod-ethernet/ice_makefile_pipelinec/pipelinec_output/c_structs_pkg.pkg.vhd:7101:36:warning: declaration of "data" hides enumeration literal DATA [-Whide]
+  function work_serialize_t_to_slv(data : work_serialize_t) return std_logic_vector is
+                                   ^
+/home/devel/Catboard-Pipelinec/pmod-ethernet/ice_makefile_pipelinec/pipelinec_output/c_structs_pkg.pkg.vhd:7121:36:warning: declaration of "data" hides enumeration literal DATA [-Whide]
+  function slv_to_work_serialize_t(data : std_logic_vector) return work_serialize_t is
+                                   ^
+/home/devel/Catboard-Pipelinec/pmod-ethernet/ice_makefile_pipelinec/pipelinec_output/c_structs_pkg.pkg.vhd:7149:54:warning: declaration of "data" hides enumeration literal DATA [-Whide]
+  function loopback_headers_fifo_FIFO_write_t_to_slv(data : loopback_headers_fifo_FIFO_write_t) return std_logic_vector is
+                                                     ^
+/home/devel/Catboard-Pipelinec/pmod-ethernet/ice_makefile_pipelinec/pipelinec_output/c_structs_pkg.pkg.vhd:7160:54:warning: declaration of "data" hides enumeration literal DATA [-Whide]
+  function slv_to_loopback_headers_fifo_FIFO_write_t(data : std_logic_vector) return loopback_headers_fifo_FIFO_write_t is
+                                                     ^
+/home/devel/Catboard-Pipelinec/pmod-ethernet/ice_makefile_pipelinec/pipelinec_output/c_structs_pkg.pkg.vhd:7173:37:warning: declaration of "data" hides enumeration literal DATA [-Whide]
+  function uint8_t_array_8_t_to_slv(data : uint8_t_array_8_t) return std_logic_vector is
+                                    ^
+/home/devel/Catboard-Pipelinec/pmod-ethernet/ice_makefile_pipelinec/pipelinec_output/c_structs_pkg.pkg.vhd:7184:37:warning: declaration of "data" hides enumeration literal DATA [-Whide]
+  function slv_to_uint8_t_array_8_t(data : std_logic_vector) return uint8_t_array_8_t is
+                                    ^
+/home/devel/Catboard-Pipelinec/pmod-ethernet/ice_makefile_pipelinec/pipelinec_output/c_structs_pkg.pkg.vhd:7197:37:warning: declaration of "data" hides enumeration literal DATA [-Whide]
+  function uint8_t_array_4_t_to_slv(data : uint8_t_array_4_t) return std_logic_vector is
+                                    ^
+/home/devel/Catboard-Pipelinec/pmod-ethernet/ice_makefile_pipelinec/pipelinec_output/c_structs_pkg.pkg.vhd:7208:37:warning: declaration of "data" hides enumeration literal DATA [-Whide]
+  function slv_to_uint8_t_array_4_t(data : std_logic_vector) return uint8_t_array_4_t is
+                                    ^
+/home/devel/Catboard-Pipelinec/pmod-ethernet/ice_makefile_pipelinec/pipelinec_output/c_structs_pkg.pkg.vhd:7221:37:warning: declaration of "data" hides enumeration literal DATA [-Whide]
+  function uint8_t_array_1_t_to_slv(data : uint8_t_array_1_t) return std_logic_vector is
+                                    ^
+/home/devel/Catboard-Pipelinec/pmod-ethernet/ice_makefile_pipelinec/pipelinec_output/c_structs_pkg.pkg.vhd:7232:37:warning: declaration of "data" hides enumeration literal DATA [-Whide]
+  function slv_to_uint8_t_array_1_t(data : std_logic_vector) return uint8_t_array_1_t is
+                                    ^
+/home/devel/Catboard-Pipelinec/pmod-ethernet/ice_makefile_pipelinec/pipelinec_output/c_structs_pkg.pkg.vhd:7245:33:warning: declaration of "data" hides enumeration literal DATA [-Whide]
+      function axis8_t_1_to_slv(data : axis8_t_1) return std_logic_vector is
+                                ^
+/home/devel/Catboard-Pipelinec/pmod-ethernet/ice_makefile_pipelinec/pipelinec_output/c_structs_pkg.pkg.vhd:7256:33:warning: declaration of "data" hides enumeration literal DATA [-Whide]
+      function slv_to_axis8_t_1(data : std_logic_vector) return axis8_t_1 is
+                                ^
+/home/devel/Catboard-Pipelinec/pmod-ethernet/ice_makefile_pipelinec/pipelinec_output/c_structs_pkg.pkg.vhd:7269:38:warning: declaration of "data" hides enumeration literal DATA [-Whide]
+      function eth_header_t_1_to_slv(data : eth_header_t_1) return std_logic_vector is
+                                     ^
+/home/devel/Catboard-Pipelinec/pmod-ethernet/ice_makefile_pipelinec/pipelinec_output/c_structs_pkg.pkg.vhd:7280:38:warning: declaration of "data" hides enumeration literal DATA [-Whide]
+      function slv_to_eth_header_t_1(data : std_logic_vector) return eth_header_t_1 is
+                                     ^
+/home/devel/Catboard-Pipelinec/pmod-ethernet/ice_makefile_pipelinec/pipelinec_output/c_structs_pkg.pkg.vhd:7293:60:warning: declaration of "data" hides enumeration literal DATA [-Whide]
+  function no_skid_rmii_eth_mac_rx_fifo_FIFO_read_t_to_slv(data : no_skid_rmii_eth_mac_rx_fifo_FIFO_read_t) return std_logic_vector is
+                                                           ^
+/home/devel/Catboard-Pipelinec/pmod-ethernet/ice_makefile_pipelinec/pipelinec_output/c_structs_pkg.pkg.vhd:7307:60:warning: declaration of "data" hides enumeration literal DATA [-Whide]
+  function slv_to_no_skid_rmii_eth_mac_rx_fifo_FIFO_read_t(data : std_logic_vector) return no_skid_rmii_eth_mac_rx_fifo_FIFO_read_t is
+                                                           ^
+/home/devel/Catboard-Pipelinec/pmod-ethernet/ice_makefile_pipelinec/pipelinec_output/c_structs_pkg.pkg.vhd:7325:60:warning: declaration of "data" hides enumeration literal DATA [-Whide]
+  function no_skid_rmii_eth_mac_tx_fifo_FIFO_read_t_to_slv(data : no_skid_rmii_eth_mac_tx_fifo_FIFO_read_t) return std_logic_vector is
+                                                           ^
+/home/devel/Catboard-Pipelinec/pmod-ethernet/ice_makefile_pipelinec/pipelinec_output/c_structs_pkg.pkg.vhd:7339:60:warning: declaration of "data" hides enumeration literal DATA [-Whide]
+  function slv_to_no_skid_rmii_eth_mac_tx_fifo_FIFO_read_t(data : std_logic_vector) return no_skid_rmii_eth_mac_tx_fifo_FIFO_read_t is
+                                                           ^
+/home/devel/Catboard-Pipelinec/pmod-ethernet/ice_makefile_pipelinec/pipelinec_output/c_structs_pkg.pkg.vhd:7357:53:warning: declaration of "data" hides enumeration literal DATA [-Whide]
+  function loopback_headers_fifo_FIFO_read_t_to_slv(data : loopback_headers_fifo_FIFO_read_t) return std_logic_vector is
+                                                    ^
+/home/devel/Catboard-Pipelinec/pmod-ethernet/ice_makefile_pipelinec/pipelinec_output/c_structs_pkg.pkg.vhd:7371:53:warning: declaration of "data" hides enumeration literal DATA [-Whide]
+  function slv_to_loopback_headers_fifo_FIFO_read_t(data : std_logic_vector) return loopback_headers_fifo_FIFO_read_t is
+                                                    ^
+/home/devel/Catboard-Pipelinec/pmod-ethernet/ice_makefile_pipelinec/pipelinec_output/include/net/rmii_eth_mac.c/skid_buf_rmii_eth_mac_rx_fifo/skid_buf_rmii_eth_mac_rx_fifo_0CLK_83e31706.vhd:125:12:warning: declaration of "return_output" hides port "return_output" [-Whide]
+  variable return_output : skid_buf_rmii_eth_mac_rx_fifo_t;
+           ^
+/home/devel/Catboard-Pipelinec/pmod-ethernet/ice_makefile_pipelinec/pipelinec_output/include/net/rmii_eth_mac.c/skid_buf_rmii_eth_mac_rx_fifo/skid_buf_rmii_eth_mac_rx_fifo_0CLK_83e31706.vhd:138:12:warning: declaration of "return_output" hides port "return_output" [-Whide]
+  variable return_output : axis8_t_stream_t;
+           ^
+/home/devel/Catboard-Pipelinec/pmod-ethernet/ice_makefile_pipelinec/pipelinec_output/include/net/rmii_eth_mac.c/skid_buf_rmii_eth_mac_tx_fifo/skid_buf_rmii_eth_mac_tx_fifo_0CLK_83e31706.vhd:125:12:warning: declaration of "return_output" hides port "return_output" [-Whide]
+  variable return_output : skid_buf_rmii_eth_mac_tx_fifo_t;
+           ^
+/home/devel/Catboard-Pipelinec/pmod-ethernet/ice_makefile_pipelinec/pipelinec_output/include/net/rmii_eth_mac.c/skid_buf_rmii_eth_mac_tx_fifo/skid_buf_rmii_eth_mac_tx_fifo_0CLK_83e31706.vhd:138:12:warning: declaration of "return_output" hides port "return_output" [-Whide]
+  variable return_output : axis8_t_stream_t;
+           ^
+/home/devel/Catboard-Pipelinec/pmod-ethernet/ice_makefile_pipelinec/pipelinec_output/include/net/rmii_eth_mac.h/rmii_rx_mac/rmii_rx_mac_0CLK_7b2e14c0.vhd:423:12:warning: declaration of "return_output" hides port "return_output" [-Whide]
+  variable return_output : unsigned(5 downto 0);
+           ^
+/home/devel/Catboard-Pipelinec/pmod-ethernet/ice_makefile_pipelinec/pipelinec_output/include/net/rmii_eth_mac.h/rmii_rx_mac/rmii_rx_mac_0CLK_7b2e14c0.vhd:434:12:warning: declaration of "return_output" hides port "return_output" [-Whide]
+  variable return_output : unsigned(7 downto 0);
+           ^
+/home/devel/Catboard-Pipelinec/pmod-ethernet/ice_makefile_pipelinec/pipelinec_output/include/net/rmii_eth_mac.h/rmii_rx_mac/rmii_rx_mac_0CLK_7b2e14c0.vhd:448:12:warning: declaration of "return_output" hides port "return_output" [-Whide]
+  variable return_output : unsigned(31 downto 0);
+           ^
+/home/devel/Catboard-Pipelinec/pmod-ethernet/ice_makefile_pipelinec/pipelinec_output/include/net/rmii_eth_mac.h/rmii_rx_mac/rmii_rx_mac_0CLK_7b2e14c0.vhd:464:12:warning: declaration of "return_output" hides port "return_output" [-Whide]
+  variable return_output : rmii_rx_mac_t;
+           ^
+/home/devel/Catboard-Pipelinec/pmod-ethernet/ice_makefile_pipelinec/pipelinec_output/include/net/rmii_eth_mac.h/rmii_rx_mac/rmii_rx_mac_0CLK_7b2e14c0.vhd:498:12:warning: declaration of "return_output" hides port "return_output" [-Whide]
+  variable return_output : uint2_t_20;
+           ^
+/home/devel/Catboard-Pipelinec/pmod-ethernet/ice_makefile_pipelinec/pipelinec_output/include/net/rmii_eth_mac.h/rmii_rx_mac/rmii_rx_mac_0CLK_7b2e14c0.vhd:547:12:warning: declaration of "return_output" hides port "return_output" [-Whide]
+  variable return_output : uint1_t_20;
+           ^
+/home/devel/Catboard-Pipelinec/pmod-ethernet/ice_makefile_pipelinec/pipelinec_output/include/net/rmii_eth_mac.h/rmii_tx_mac/rmii_tx_mac_0CLK_6e754937.vhd:491:12:warning: declaration of "return_output" hides port "return_output" [-Whide]
+  variable return_output : rmii_tx_mac_t;
+           ^
+/home/devel/Catboard-Pipelinec/pmod-ethernet/ice_makefile_pipelinec/pipelinec_output/include/net/rmii_eth_mac.h/rmii_tx_mac/rmii_tx_mac_0CLK_6e754937.vhd:506:12:warning: declaration of "return_output" hides port "return_output" [-Whide]
+  variable return_output : rmii_tx_mac_t;
+           ^
+/home/devel/Catboard-Pipelinec/pmod-ethernet/ice_makefile_pipelinec/pipelinec_output/include/net/rmii_eth_mac.h/rmii_tx_mac/rmii_tx_mac_0CLK_6e754937.vhd:521:12:warning: declaration of "return_output" hides port "return_output" [-Whide]
+  variable return_output : rmii_tx_mac_t;
+           ^
+/home/devel/Catboard-Pipelinec/pmod-ethernet/ice_makefile_pipelinec/pipelinec_output/include/net/rmii_eth_mac.h/rmii_tx_mac/rmii_tx_mac_0CLK_6e754937.vhd:533:12:warning: declaration of "return_output" hides port "return_output" [-Whide]
+  variable return_output : unsigned(1 downto 0);
+           ^
+/home/devel/Catboard-Pipelinec/pmod-ethernet/ice_makefile_pipelinec/pipelinec_output/include/net/rmii_eth_mac.h/rmii_tx_mac/rmii_tx_mac_0CLK_6e754937.vhd:541:12:warning: declaration of "return_output" hides port "return_output" [-Whide]
+  variable return_output : unsigned(1 downto 0);
+           ^
+/home/devel/Catboard-Pipelinec/pmod-ethernet/ice_makefile_pipelinec/pipelinec_output/built_in/VAR_REF_RD_uint32_t_uint32_t_16_VAR_7a60/VAR_REF_RD_uint32_t_uint32_t_16_VAR_7a60_0CLK_8bf83e3e.vhd:68:12:warning: declaration of "return_output" hides port "return_output" [-Whide]
+  variable return_output : unsigned(3 downto 0);
+           ^
+/home/devel/Catboard-Pipelinec/pmod-ethernet/ice_makefile_pipelinec/pipelinec_output/bit_math.h/uint32_mux16/uint32_mux16_0CLK_4e6656cf.vhd:134:12:warning: declaration of "return_output" hides port "return_output" [-Whide]
+  variable return_output : unsigned(0 downto 0);
+           ^
+/home/devel/Catboard-Pipelinec/pmod-ethernet/ice_makefile_pipelinec/pipelinec_output/bit_math.h/uint32_mux16/uint32_mux16_0CLK_4e6656cf.vhd:144:12:warning: declaration of "return_output" hides port "return_output" [-Whide]
+  variable return_output : unsigned(0 downto 0);
+           ^
+/home/devel/Catboard-Pipelinec/pmod-ethernet/ice_makefile_pipelinec/pipelinec_output/bit_math.h/uint32_mux16/uint32_mux16_0CLK_4e6656cf.vhd:154:12:warning: declaration of "return_output" hides port "return_output" [-Whide]
+  variable return_output : unsigned(0 downto 0);
+           ^
+/home/devel/Catboard-Pipelinec/pmod-ethernet/ice_makefile_pipelinec/pipelinec_output/bit_math.h/uint32_mux16/uint32_mux16_0CLK_4e6656cf.vhd:164:12:warning: declaration of "return_output" hides port "return_output" [-Whide]
+  variable return_output : unsigned(0 downto 0);
+           ^
+/home/devel/Catboard-Pipelinec/pmod-ethernet/ice_makefile_pipelinec/pipelinec_output/work_pipeline_no_handshake_in_reg_func/work_pipeline_no_handshake_in_reg_func_0CLK_b45f1687.vhd:42:12:warning: declaration of "return_output" hides port "return_output" [-Whide]
+  variable return_output : work_pipeline_no_handshake_in_reg_t;
+           ^
+/home/devel/Catboard-Pipelinec/pmod-ethernet/ice_makefile_pipelinec/pipelinec_output/examples/net/work.h/work/work_0CLK_83e31706.vhd:112:12:warning: declaration of "return_output" hides port "return_output" [-Whide]
+  variable return_output : work_outputs_t;
+           ^
+/home/devel/Catboard-Pipelinec/pmod-ethernet/ice_makefile_pipelinec/pipelinec_output/work_pipeline_no_handshake_out_reg_func/work_pipeline_no_handshake_out_reg_func_0CLK_b45f1687.vhd:42:12:warning: declaration of "return_output" hides port "return_output" [-Whide]
+  variable return_output : work_pipeline_no_handshake_out_reg_t;
+           ^
+/home/devel/Catboard-Pipelinec/pmod-ethernet/ice_makefile_pipelinec/pipelinec_output/built_in/BIN_OP_LT_uint16_t_uint3_t/BIN_OP_LT_uint16_t_uint3_t_0CLK_5af1a430.vhd:50:12:warning: declaration of "return_output" hides port "return_output" [-Whide]
+  variable return_output : signed(3 downto 0);
+           ^
+/home/devel/Catboard-Pipelinec/pmod-ethernet/ice_makefile_pipelinec/pipelinec_output/built_in/BIN_OP_LT_uint16_t_uint3_t/BIN_OP_LT_uint16_t_uint3_t_0CLK_5af1a430.vhd:60:12:warning: declaration of "return_output" hides port "return_output" [-Whide]
+  variable return_output : unsigned(0 downto 0);
+           ^
+/home/devel/Catboard-Pipelinec/pmod-ethernet/ice_makefile_pipelinec/pipelinec_output/include/net/eth_8.h/eth_8_rx/eth_8_rx_0CLK_5110df32.vhd:402:12:warning: declaration of "return_output" hides port "return_output" [-Whide]
+  variable return_output : unsigned(47 downto 0);
+           ^
+/home/devel/Catboard-Pipelinec/pmod-ethernet/ice_makefile_pipelinec/pipelinec_output/include/net/eth_8.h/eth_8_rx/eth_8_rx_0CLK_5110df32.vhd:415:12:warning: declaration of "return_output" hides port "return_output" [-Whide]
+  variable return_output : eth_header_t;
+           ^
+/home/devel/Catboard-Pipelinec/pmod-ethernet/ice_makefile_pipelinec/pipelinec_output/include/net/eth_8.h/eth_8_rx/eth_8_rx_0CLK_5110df32.vhd:429:12:warning: declaration of "return_output" hides port "return_output" [-Whide]
+  variable return_output : unsigned(15 downto 0);
+           ^
+/home/devel/Catboard-Pipelinec/pmod-ethernet/ice_makefile_pipelinec/pipelinec_output/include/net/eth_8.h/eth_8_rx/eth_8_rx_0CLK_5110df32.vhd:441:12:warning: declaration of "return_output" hides port "return_output" [-Whide]
+  variable return_output : unsigned(0 downto 0);
+           ^
+/home/devel/Catboard-Pipelinec/pmod-ethernet/ice_makefile_pipelinec/pipelinec_output/include/net/eth_8.h/eth_8_rx/eth_8_rx_0CLK_5110df32.vhd:454:12:warning: declaration of "return_output" hides port "return_output" [-Whide]
+  variable return_output : eth_header_t;
+           ^
+/home/devel/Catboard-Pipelinec/pmod-ethernet/ice_makefile_pipelinec/pipelinec_output/include/net/eth_8.h/eth_8_rx/eth_8_rx_0CLK_5110df32.vhd:471:12:warning: declaration of "return_output" hides port "return_output" [-Whide]
+  variable return_output : eth_8_rx_t;
+           ^
+/home/devel/Catboard-Pipelinec/pmod-ethernet/ice_makefile_pipelinec/pipelinec_output/work_deserialize/work_deserialize_0CLK_771b4af2.vhd:56:12:warning: declaration of "return_output" hides port "return_output" [-Whide]
+  variable return_output : uint8_t_1;
+           ^
+/home/devel/Catboard-Pipelinec/pmod-ethernet/ice_makefile_pipelinec/pipelinec_output/work_deserialize/work_deserialize_0CLK_771b4af2.vhd:69:12:warning: declaration of "return_output" hides port "return_output" [-Whide]
+  variable return_output : work_deserialize_t;
+           ^
+/home/devel/Catboard-Pipelinec/pmod-ethernet/ice_makefile_pipelinec/pipelinec_output/include/axi/axis.h/axis8_max_len_limiter/axis8_max_len_limiter_0CLK_4c1c43f4.vhd:110:12:warning: declaration of "return_output" hides port "return_output" [-Whide]
+  variable return_output : axis8_max_len_limiter_t;
+           ^
+/home/devel/Catboard-Pipelinec/pmod-ethernet/ice_makefile_pipelinec/pipelinec_output/include/axi/axis.h/axis8_max_len_limiter/axis8_max_len_limiter_0CLK_4c1c43f4.vhd:124:12:warning: declaration of "return_output" hides port "return_output" [-Whide]
+  variable return_output : axis8_max_len_limiter_t;
+           ^
+/home/devel/Catboard-Pipelinec/pmod-ethernet/ice_makefile_pipelinec/pipelinec_output/include/axi/axis.h/axis8_max_len_limiter/axis8_max_len_limiter_0CLK_4c1c43f4.vhd:138:12:warning: declaration of "return_output" hides port "return_output" [-Whide]
+  variable return_output : axis8_max_len_limiter_t;
+           ^
+/home/devel/Catboard-Pipelinec/pmod-ethernet/ice_makefile_pipelinec/pipelinec_output/built_in/BIN_OP_LTE_uint16_t_uint16_t/BIN_OP_LTE_uint16_t_uint16_t_0CLK_6f2c5aad.vhd:39:12:warning: declaration of "return_output" hides port "return_output" [-Whide]
+  variable return_output : signed(16 downto 0);
+           ^
+/home/devel/Catboard-Pipelinec/pmod-ethernet/ice_makefile_pipelinec/pipelinec_output/built_in/BIN_OP_LTE_uint16_t_uint16_t/BIN_OP_LTE_uint16_t_uint16_t_0CLK_6f2c5aad.vhd:49:12:warning: declaration of "return_output" hides port "return_output" [-Whide]
+  variable return_output : unsigned(0 downto 0);
+           ^
+/home/devel/Catboard-Pipelinec/pmod-ethernet/ice_makefile_pipelinec/pipelinec_output/work_deserialize_type_byte_deserializer/work_deserialize_type_byte_deserializer_0CLK_099410d6.vhd:46:12:warning: declaration of "return_output" hides port "return_output" [-Whide]
+  variable return_output : uint8_t_array_8_t;
+           ^
+/home/devel/Catboard-Pipelinec/pmod-ethernet/ice_makefile_pipelinec/pipelinec_output/work_deserialize_type_byte_deserializer/work_deserialize_type_byte_deserializer_0CLK_099410d6.vhd:59:12:warning: declaration of "return_output" hides port "return_output" [-Whide]
+  variable return_output : work_deserialize_type_byte_deserializer_t;
+           ^
+/home/devel/Catboard-Pipelinec/pmod-ethernet/ice_makefile_pipelinec/pipelinec_output/work_deserialize_type_byte_deserializer_deserializer_in_to_out/work_deserialize_type_byte_deserializer_deserializer_in_to_out_0CLK_d2b41046.vhd:111:12:warning: declaration of "return_output" hides port "return_output" [-Whide]
+  variable return_output : uint8_t_8;
+           ^
+/home/devel/Catboard-Pipelinec/pmod-ethernet/ice_makefile_pipelinec/pipelinec_output/work_deserialize_type_byte_deserializer_deserializer_in_to_out/work_deserialize_type_byte_deserializer_deserializer_in_to_out_0CLK_d2b41046.vhd:131:12:warning: declaration of "return_output" hides port "return_output" [-Whide]
+  variable return_output : work_deserialize_type_byte_deserializer_deserializer_in_to_out_t;
+           ^
+/home/devel/Catboard-Pipelinec/pmod-ethernet/ice_makefile_pipelinec/pipelinec_output/type_bytes_t.h/work_inputs_t_bytes_t.h/bytes_to_work_inputs_t_0CLK_5670a028.vhd:61:12:warning: declaration of "return_output" hides port "return_output" [-Whide]
+  variable return_output : uint8_t_array_1_t;
+           ^
+/home/devel/Catboard-Pipelinec/pmod-ethernet/ice_makefile_pipelinec/pipelinec_output/type_bytes_t.h/work_inputs_t_bytes_t.h/bytes_to_work_inputs_t_0CLK_5670a028.vhd:79:12:warning: declaration of "return_output" hides port "return_output" [-Whide]
+  variable return_output : work_inputs_t;
+           ^
+/home/devel/Catboard-Pipelinec/pmod-ethernet/ice_makefile_pipelinec/pipelinec_output/type_bytes_t.h/int8_t_bytes_t.h/bytes_to_int8_t_0CLK_23f04728.vhd:32:12:warning: declaration of "return_output" hides port "return_output" [-Whide]
+  variable return_output : signed(7 downto 0);
+           ^
+/home/devel/Catboard-Pipelinec/pmod-ethernet/ice_makefile_pipelinec/pipelinec_output/work_serialize/work_serialize_0CLK_ec30ae69.vhd:49:12:warning: declaration of "return_output" hides port "return_output" [-Whide]
+  variable return_output : work_serialize_t;
+           ^
+/home/devel/Catboard-Pipelinec/pmod-ethernet/ice_makefile_pipelinec/pipelinec_output/type_bytes_t.h/work_outputs_t_bytes_t.h/work_outputs_t_to_bytes_0CLK_82755757.vhd:48:12:warning: declaration of "return_output" hides port "return_output" [-Whide]
+  variable return_output : uint8_t_array_4_t;
+           ^
+/home/devel/Catboard-Pipelinec/pmod-ethernet/ice_makefile_pipelinec/pipelinec_output/type_bytes_t.h/int8_t_bytes_t.h/int8_t_to_bytes_0CLK_23f04728.vhd:26:20:warning: declaration of "x" hides port "x" [-Whide]
+function int8_7_0( x : signed) return unsigned is
+                   ^
+/home/devel/Catboard-Pipelinec/pmod-ethernet/ice_makefile_pipelinec/pipelinec_output/type_bytes_t.h/int8_t_bytes_t.h/int8_t_to_bytes_0CLK_23f04728.vhd:28:12:warning: declaration of "return_output" hides port "return_output" [-Whide]
+  variable return_output : unsigned(7 downto 0);
+           ^
+/home/devel/Catboard-Pipelinec/pmod-ethernet/ice_makefile_pipelinec/pipelinec_output/type_bytes_t.h/int8_t_bytes_t.h/int8_t_to_bytes_0CLK_23f04728.vhd:37:12:warning: declaration of "return_output" hides port "return_output" [-Whide]
+  variable return_output : uint8_t_array_1_t;
+           ^
+/home/devel/Catboard-Pipelinec/pmod-ethernet/ice_makefile_pipelinec/pipelinec_output/work_serialize_serializer_in_to_out/work_serialize_serializer_in_to_out_0CLK_d2b41046.vhd:130:12:warning: declaration of "return_output" hides port "return_output" [-Whide]
+  variable return_output : uint8_t_4;
+           ^
+/home/devel/Catboard-Pipelinec/pmod-ethernet/ice_makefile_pipelinec/pipelinec_output/work_serialize_serializer_in_to_out/work_serialize_serializer_in_to_out_0CLK_d2b41046.vhd:147:12:warning: declaration of "return_output" hides port "return_output" [-Whide]
+  variable return_output : work_serialize_serializer_in_to_out_t;
+           ^
+/home/devel/Catboard-Pipelinec/pmod-ethernet/ice_makefile_pipelinec/pipelinec_output/include/net/eth_8.h/eth_8_tx/eth_8_tx_0CLK_418a2715.vhd:467:12:warning: declaration of "return_output" hides port "return_output" [-Whide]
+  variable return_output : unsigned(7 downto 0);
+           ^
+/home/devel/Catboard-Pipelinec/pmod-ethernet/ice_makefile_pipelinec/pipelinec_output/include/net/eth_8.h/eth_8_tx/eth_8_tx_0CLK_418a2715.vhd:476:12:warning: declaration of "return_output" hides port "return_output" [-Whide]
+  variable return_output : uint8_t_1;
+           ^
+/home/devel/Catboard-Pipelinec/pmod-ethernet/ice_makefile_pipelinec/pipelinec_output/include/net/eth_8.h/eth_8_tx/eth_8_tx_0CLK_418a2715.vhd:488:12:warning: declaration of "return_output" hides port "return_output" [-Whide]
+  variable return_output : eth_header_t;
+           ^
+/home/devel/Catboard-Pipelinec/pmod-ethernet/ice_makefile_pipelinec/pipelinec_output/include/net/eth_8.h/eth_8_tx/eth_8_tx_0CLK_418a2715.vhd:504:12:warning: declaration of "return_output" hides port "return_output" [-Whide]
+  variable return_output : eth_8_tx_t;
+           ^
+/home/devel/Catboard-Pipelinec/pmod-ethernet/ice_makefile_pipelinec/pipelinec_output/include/net/eth_8.h/eth_8_tx/eth_8_tx_0CLK_418a2715.vhd:523:12:warning: declaration of "return_output" hides port "return_output" [-Whide]
+  variable return_output : eth_8_tx_t;
+           ^
+/home/devel/Catboard-Pipelinec/pmod-ethernet/ice_makefile_pipelinec/pipelinec_output/include/net/eth_8.h/eth_8_tx/eth_8_tx_0CLK_418a2715.vhd:537:12:warning: declaration of "return_output" hides port "return_output" [-Whide]
+  variable return_output : unsigned(7 downto 0);
+           ^
+/home/devel/Catboard-Pipelinec/pmod-ethernet/ice_makefile_pipelinec/pipelinec_output/include/net/eth_8.h/eth_8_tx/eth_8_tx_0CLK_418a2715.vhd:549:12:warning: declaration of "return_output" hides port "return_output" [-Whide]
+  variable return_output : eth_8_tx_t;
+           ^
+/home/devel/Catboard-Pipelinec/pmod-ethernet/ice_makefile_pipelinec/pipelinec_output/include/net/eth_8.h/eth_8_tx/eth_8_tx_0CLK_418a2715.vhd:567:12:warning: declaration of "return_output" hides port "return_output" [-Whide]
+  variable return_output : eth_8_tx_t;
+           ^
+/home/devel/Catboard-Pipelinec/pmod-ethernet/ice_makefile_pipelinec/pipelinec_output/include/net/eth_8.h/eth_8_tx/eth_8_tx_0CLK_418a2715.vhd:584:12:warning: declaration of "return_output" hides port "return_output" [-Whide]
+  variable return_output : eth_header_t;
+           ^
+/home/devel/Catboard-Pipelinec/pmod-ethernet/ice_makefile_pipelinec/pipelinec_output/built_in/BIN_OP_LT_uint6_t_uint6_t/BIN_OP_LT_uint6_t_uint6_t_0CLK_380ecc95.vhd:35:12:warning: declaration of "return_output" hides port "return_output" [-Whide]
+  variable return_output : signed(6 downto 0);
+           ^
+/home/devel/Catboard-Pipelinec/pmod-ethernet/ice_makefile_pipelinec/pipelinec_output/built_in/BIN_OP_LT_uint6_t_uint6_t/BIN_OP_LT_uint6_t_uint6_t_0CLK_380ecc95.vhd:45:12:warning: declaration of "return_output" hides port "return_output" [-Whide]
+  variable return_output : unsigned(0 downto 0);
+           ^
+/home/devel/Catboard-Pipelinec/pmod-ethernet/ice_makefile_pipelinec/pipelinec_output/pipelinec_top/pipelinec_top.vhd:44:11:warning: unhandled attribute "dont_touch" [-Wunhandled-attribute]
+attribute dont_touch of clk_50p0: signal is "true";
+          ^
+/home/devel/Catboard-Pipelinec/pmod-ethernet/ice_makefile_pipelinec/pipelinec_output/pipelinec_top/pipelinec_top.vhd:42:11:warning: unhandled attribute "syn_keep" [-Wunhandled-attribute]
+attribute syn_keep of clk_50p0: signal is true;
+          ^
+/home/devel/Catboard-Pipelinec/pmod-ethernet/ice_makefile_pipelinec/pipelinec_output/pipelinec_top/pipelinec_top.vhd:40:11:warning: unhandled attribute "dont_touch" [-Wunhandled-attribute]
+attribute dont_touch of clk_25p0: signal is "true";
+          ^
+/home/devel/Catboard-Pipelinec/pmod-ethernet/ice_makefile_pipelinec/pipelinec_output/pipelinec_top/pipelinec_top.vhd:38:11:warning: unhandled attribute "syn_keep" [-Wunhandled-attribute]
+attribute syn_keep of clk_25p0: signal is true;
+          ^
+/home/devel/Catboard-Pipelinec/pmod-ethernet/ice_makefile_pipelinec/pipelinec_output/built_in/pipelinec_fifo_fwft.vhd:29:10:note: found RAM "mem", width: 112 bits, depth: 2
+  signal mem              : mem_type(2**ADDR_WIDTH-1 downto 0):= (others => (others => '0'));
+         ^
+/home/devel/Catboard-Pipelinec/pmod-ethernet/ice_makefile_pipelinec/pipelinec_output/built_in/pipelinec_async_fifo_fwft.vhd:90:8:note: found RAM "mem", width: 10 bits, depth: 4
+signal mem              : mem_type(2**ADDR_WIDTH-1 downto 0):= (others => (others => '0'));
+       ^
+/home/devel/Catboard-Pipelinec/pmod-ethernet/ice_makefile_pipelinec/pipelinec_output/built_in/pipelinec_fifo_fwft.vhd:29:10:note: found RAM "mem", width: 32 bits, depth: 4
+  signal mem              : mem_type(2**ADDR_WIDTH-1 downto 0):= (others => (others => '0'));
+         ^
