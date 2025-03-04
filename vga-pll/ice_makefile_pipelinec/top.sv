@@ -1,5 +1,5 @@
 module top(
-  input clk_12p0,
+  input clk_100p0,
   // RGB LED
   output ICE_39,
   output ICE_40,
@@ -32,7 +32,7 @@ module top(
   // PLL instance to make a clock based on 12MHz input
   wire pll_clk;
   pll pll_inst(
-    .clock_in(clk_12p0),
+    .clock_in(clk_100p0),
     .clock_out(pll_clk),
     .locked()
 	);
