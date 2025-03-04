@@ -1,6 +1,6 @@
 #include "uintN_t.h"
 // See pico-ice-sdk/rtl/pico_ice.pcf
-#pragma PART "ICE40UP5K-SG48"
+#pragma PART "ICE40HX8K-CT256"
 
 // Get clock rate constant PLL_CLK_MHZ from header written by make flow
 #include "pll_clk_mhz.h"
