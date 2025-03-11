@@ -24,4 +24,10 @@ LH HH
  (6A 106) (65 101) (62 98) (64 100)  (5D 93) (56 86) (4F 79)  (40 64)
  (32 50)  (2F 47) (3B 59) (6C 108)   (91 145) (98 152) (95 149) (8C 140)
  
-if col = 0 symmetrical extension
+if col = 0 symmetrical extension is required.
+if col = & symmetrical extension is required.
+
+if row = 0 symmetrical extension is required.
+if row = & symmetrical extension is required.
+
+An image of 64x64 
