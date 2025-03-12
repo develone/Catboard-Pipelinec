@@ -5,7 +5,7 @@ int j;
 FILE *file;
 long file_size;
 char *buffer;
-
+char a[7][7];
 const char *filename = "a64.bin";
 int main() {
 	// Open the file in binary read mode
@@ -36,19 +36,65 @@ int main() {
       fclose(file);
       //return 1;
    }
-	for(i=0;i<8;i++) {
-		printf("0x%x %d ",*buffer,*buffer);
-		buffer+=1;
+	for(j=0;j<8;j++) {
+		for(i=0;i<8;i++) {
+			a[j][i]=*buffer;
+			//printf("0x%x ",a[j][i]);
+			printf("%d ",a[j][i]);
+			buffer+=1;
+		}
+		printf("\n");
+		buffer+=56;
+	}
+	for(j=0;j<8;j++) {
+		for(i=0;i<8;i++) {
+			if (i==0) {
+				a[j][i] = ((a[j][i] - a[j][i]) + (a[j][i+1]/2));
+			}
+			a[j][i] = ((a[j][i] - a[j][i-1]) + (a[j][i+1]/2));
+			if (i==7) {
+				a[j][i] = ((a[j][i] - a[j][i]) + (a[j][i]/2));
+			}
+
+		}
 	}
 
-	printf("\n");
+printf("\n");
 
 	for(i=0;i<8;i++)
 		{
 		for(j=0;j<8;j++)
 		{
-			printf("i = %d for j = %d\n",i,j);
+			//printf("0x%x ",a[j][i]);
+			printf("%d ",a[j][i]);
 		}
+		printf("\n");
 		}
+
+	for(i=0;i<8;i++) {
+		for(j=0;j<8;j++) {
+			if (j==0) {
+				a[j][i] = ((a[j][i] - a[j][i]) + (a[j][i+1]/2));
+			}
+			a[j][i] = ((a[j][i] - a[j][i-1]) + (a[j][i+1]/2));
+			if (j==7) {
+				a[j][i] = ((a[j][i] - a[j][i]) + (a[j][i]/2));
+			}
+
+		}
+	}
+
+printf("\n");
+
+	for(i=0;i<8;i++)
+		{
+		for(j=0;j<8;j++)
+		{
+			//printf("0x%x ",a[j][i]);
+			printf("%d ",a[j][i]);
+		}
+		printf("\n");
+		}
+
 	return 1;
 }
