@@ -89,7 +89,7 @@ def testbench():
 			#updated_s.next = 1
 			lo_hi_s.next = 1
 			fwd_inv_s.next = 1
-			htth
+			
 			yield clk_fast.posedge
 		for i in range(1,128,2):
 			sam_s.next = int(m[i])
