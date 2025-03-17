@@ -1,0 +1,19 @@
+git clone https://github.com/develone/openjpeg.git -b ultibo t_ultibo
+cd t_ultibo/build
+devel@pi5-90:~/t_ultibo/build $ git diff
+diff --git a/src/lib/openmj2/dwt.c b/src/lib/openmj2/dwt.c
+index 178e4d02..d9c91270 100644
+--- a/src/lib/openmj2/dwt.c
++++ b/src/lib/openmj2/dwt.c
+@@ -230,7 +230,7 @@ static void dwt_interleave_v(dwt_t* v, int *a, int x) {
+ /* </summary>                           */
+ static void dwt_encode_1(int *a, int dn, int sn, int cas) {
+        int i;
+-       
++       printf("%d = dn %d = sn %d = cas\n", dn,sn,cas);
+        if (!cas) {
+                if ((dn > 0) || (sn > 1)) {     /* NEW :  CASE ONE ELEMENT */
+                        for (i = 0; i < dn; i++) D(i) -= (S_(i) + S_(i + 1)) >> 1;
+
+cmake ../
+make
