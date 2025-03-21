@@ -199,7 +199,7 @@ if __name__ == "__main__":
                 
     # Perform a forward CDF 9/7 transform on the image:
     m = fwt97_2d(m, 1)
-    #print(m)
+   #print(m)
 
 
     
