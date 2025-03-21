@@ -203,8 +203,8 @@ if __name__ == "__main__":
 
 
     
-    #seq_to_img(m, pix) # Convert the list of lists matrix to an image.
-    #im.save("test1_512_fwt.png") # Save the transformed image.
+    seq_to_img(m, pix) # Convert the list of lists matrix to an image.
+    im.save("test1_512_fwt.png") # Save the transformed image.
     
     # Perform an inverse transform:
     m = iwt97_2d(m, 1)
