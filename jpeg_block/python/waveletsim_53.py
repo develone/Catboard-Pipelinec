@@ -33,11 +33,11 @@ def upper_lower(s, width, height):
 def lower_upper(s, width, height):
 
 	temp_bank = [[0]*width for i in range(height)]
-	for col in range(width/2,width,1):
+	for col in range(int(width/2),width,1):
 
-		for row in range(height/2,height,1):
+		for row in range(int(height/2),height,1):
 
-			temp_bank[col-width/2][row-height/2] = s[row][col]
+			temp_bank[int(col-width/2)][int(row-height/2)] = s[row][col]
 
 	for row in range(width):
 		for col in range(height):
@@ -52,10 +52,10 @@ def de_interleave(s,height,width):
             # simultaneously transpose the matrix when deinterleaving
 			if row % 2 == 0:
 
-				temp_bank[col][row/2] =  s[row][col]
+				temp_bank[col][int(row/2)] =  s[row][col]
 			else:
 
-				temp_bank[col][row/2 + height/2] =  s[row][col]
+				temp_bank[col][int(row/2) + int(height/2)] =  s[row][col]
     # write temp_bank to s:
 	for row in range(width):
 		for col in range(height):
@@ -119,7 +119,7 @@ def fwt97(s, width, height):
 
         for row in range(2, height, 2):
 
-			s[row][col] = (s[row][col] - ((int(s[row-1][col])>>1) + (int(s[row+1][col])>>1)))
+            s[row][col] = (s[row][col] - ((int(s[row-1][col])>>1) + (int(s[row+1][col])>>1)))
             #s[row][col] += a1 * (s[row-1][col] + s[row+1][col])
 
 
@@ -127,7 +127,7 @@ def fwt97(s, width, height):
 
         for row in range(1, height-1, 2):
 
-			s[row][col] = (s[row][col] + ((int(s[row-1][col]) + int(s[row+1][col]) + 2)>>2))
+            s[row][col] = (s[row][col] + ((int(s[row-1][col]) + int(s[row+1][col]) + 2)>>2))
     s = de_interleave(s,height,width)
     return s
 
@@ -138,11 +138,11 @@ def iwt97(s, width, height):
 
     # Interleave:
     temp_bank = [[0]*width for i in range(height)]
-    for col in range(width/2):
+    for col in range(int(width/2)):
         for row in range(height):
 
-			temp_bank[col * 2][row] = s[row][col]
-			temp_bank[col * 2 + 1][row] =  s[row][col + width/2]
+            temp_bank[col * 2][row] = s[row][col]
+            temp_bank[col * 2 + 1][row] =  s[row][col +int(width/2)]
     for row in range(width):
         for col in range(height):
             s[row][col] = temp_bank[row][col]
@@ -154,7 +154,7 @@ def iwt97(s, width, height):
         # Inverse update 2.
         for row in range(1, height-1, 2):
 
-			s[row][col] = (s[row][col] - ((int(s[row-1][col]) + int(s[row+1][col]) + 2)>>2))
+            s[row][col] = (s[row][col] - ((int(s[row-1][col]) + int(s[row+1][col]) + 2)>>2))
 
             #s[row][col] += a4 * (s[row-1][col] + s[row+1][col])
         #s[0][col] += 2 * a4 * s[1][col]
@@ -162,7 +162,7 @@ def iwt97(s, width, height):
         # Inverse predict 2.
         for row in range(2, height, 2):
 
-			s[row][col] = (s[row][col] + ((int(s[row-1][col])>>1) + (int(s[row+1][col])>>1)))
+            s[row][col] = (s[row][col] + ((int(s[row-1][col])>>1) + (int(s[row+1][col])>>1)))
             #s[row][col] += a3 * (s[row-1][col] + s[row+1][col])
         #s[height-1][col] += 2 * a3 * s[height-2][col]
 
@@ -175,7 +175,7 @@ def seq_to_img(m, pix):
     Assumes m has the same number of rows and cols as pix. '''
     for row in range(len(m)):
         for col in range(len(m[row])):
-            pix[col,row] = m[row][col]
+            pix[col,row] = int(m[row][col])
 
 
 if __name__ == "__main__":
