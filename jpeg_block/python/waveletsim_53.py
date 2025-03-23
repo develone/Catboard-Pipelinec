@@ -180,7 +180,7 @@ def seq_to_img(m, pix):
 
 if __name__ == "__main__":
     # Load image.
-    im = Image.open("../lena_256.png") # Must be a single band image! (grey)
+    im = Image.open("lena_256.png") # Must be a single band image! (grey)
 
     # Create an image buffer object for fast access.
     pix = im.load()
