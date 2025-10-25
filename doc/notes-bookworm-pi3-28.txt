@@ -1,4 +1,12 @@
 10/25/25
+pi5-70 devel@pi5-70:~/Catboard-Pipelinec/
+ git pull
+ cd Catboard-Pipelinec/pmod-ethernet/examples/catboard/ice_makefile_pipelinec/
+ ./build.sh 
+ cd ../../net/
+ ./compile-work_test.sh 
+ 
+ rsync -avl --delete /home/devel/Catboard-Pipelinec 192.168.12.235:~/
 
 cd Catboard-Pipelinec/pmod-ethernet/examples/catboard/ice_makefile_pipelinec/
 
