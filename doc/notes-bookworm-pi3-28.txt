@@ -1,0 +1,81 @@
+10/25/25
+
+cd Catboard-Pipelinec/pmod-ethernet/examples/catboard/ice_makefile_pipelinec/
+
+sudo ../../../../utils/config_cat gateware.bin 
+ 
+devel@pi3-28:~ $ sudo sed -i 's/bullseye/bookworm/g' /etc/apt/sources.list 
+devel@pi3-28:~ $ sudo sed -i 's/bullseye/bookworm/g' /etc/apt/sources.list.d/raspi.list
+
+devel@pi3-28:~/Catboard-Pipelinec/pmod-ethernet/examples/net $ sudo less /etc/os-release
+PRETTY_NAME="Debian GNU/Linux 12 (bookworm)"
+NAME="Debian GNU/Linux"
+VERSION_ID="12"
+VERSION="12 (bookworm)"
+VERSION_CODENAME=bookworm
+ID=debian
+HOME_URL="https://www.debian.org/"
+SUPPORT_URL="https://www.debian.org/support"
+BUG_REPORT_URL="https://bugs.debian.org/"
+
+devel@pi3-28:~ $ sudo apt update
+
+devel@pi3-28:~ $ sudo apt full-upgrade
+
+devel@pi5-70:~/PipelineC $ git branch -a
+* test-dev
+
+devel@pi5-70:~/PipelineC $ git log
+commit 422abd8ec3496d109e1153989ac848503e1292fe (HEAD -> test-dev, origin/test-dev)
+Merge: ba22d9f 0213aad
+Author: develone <develone@sbcglobal.net>
+Date:   Thu Apr 24 15:12:02 2025 -0600
+
+    Merge branch 'JulianKemmerer:master' into test-dev
+
+
+devel@pi5-70:~ $ rsync -avl --delete Catboard-Pipelinec 192.168.12.235:~/
+
+devel@pi3-28:~/Catboard-Pipelinec/pmod-ethernet/examples/net $ sudo utils/config_cat pmod-ethernet/ice_makefile_pipelinec/gateware.bin
+
+devel@pi3-28:~/Catboard-Pipelinec/pmod-ethernet/examples/catboard/ice_makefile_pipelinec $ sudo  ../../../../utils/config_cat gateware.bin 
+
+OK: GPIO 25 exported
+OK: GPIO 17 exported
+OK: GPIO 22 exported
+
+OK: SPI driver loaded
+
+Setting GPIO directions
+out
+out
+in
+Setting output to low
+0
+Reseting FPGA
+0
+1
+Checking DONE pin
+0
+Continuing with configuration procedure
+263+1 records in
+263+1 records out
+135100 bytes (135 kB, 132 KiB) copied, 0.0797018 s, 1.7 MB/s
+Setting output to high
+1
+Checking DONE pin
+1
+
+devel@pi3-28:~/Catboard-Pipelinec/pmod-ethernet/examples/net $ sudo ./work_test
+CPU threads: 1
+n 'work()'s: 1
+Total tx bytes: 8
+Total rx bytes: 4
+CPU took 0.001722 seconds to execute
+CPU iteration time: 0.001722 seconds
+CPU bytes per sec: 6968.246989 B/s
+FPGA took 0.001056 seconds to execute
+FPGA iteration time: 0.001056 seconds
+FPGA bytes per sec: 11364.111086 B/s
+Speedup: 1.630842
+
